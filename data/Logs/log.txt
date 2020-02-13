@@ -1,0 +1,2552 @@
+[2020-02-13 14:05:58.792156]
+Initializing a new environment
+
+[2020-02-13 14:05:58.792413]
+Loading the dataset
+
+[2020-02-13 14:05:59.060733]
+Splitting strings into tokens
+
+[2020-02-13 14:05:59.916067]
+Filtering data from dataset
+
+[2020-02-13 14:05:59.916327]
+Removing empty methods
+
+[2020-02-13 14:05:59.944359]
+152194 methods left (100.00%)
+
+[2020-02-13 14:05:59.944542]
+Removing methods with empty names
+
+[2020-02-13 14:05:59.971022]
+152194 methods left (100.00%)
+
+[2020-02-13 14:05:59.971237]
+Removing getters
+
+[2020-02-13 14:05:59.994427]
+141061 methods left (92.68%)
+
+[2020-02-13 14:05:59.994692]
+Removing test methods
+
+[2020-02-13 14:06:00.044187]
+124114 methods left (81.55%)
+
+[2020-02-13 14:06:00.044495]
+Removing abstract methods
+
+[2020-02-13 14:06:00.075645]
+121577 methods left (79.88%)
+
+[2020-02-13 14:06:00.075894]
+Removing shouldNotImplement methods
+
+[2020-02-13 14:06:00.104272]
+121421 methods left (79.78%)
+
+[2020-02-13 14:06:00.104576]
+Removing keywords
+
+[2020-02-13 14:06:00.263855]
+120518 methods left (79.19%)
+
+[2020-02-13 14:06:00.264084]
+Removing duplicate methods
+
+[2020-02-13 14:06:00.624350]
+101511 methods left (66.70%)
+
+[2020-02-13 14:06:00.624613]
+Removing methods that exceed max size
+
+[2020-02-13 14:06:00.669825]
+92127 methods left (60.53%)
+
+[2020-02-13 14:06:00.670066]
+Splitting the dataset into train, validation, and test sets
+
+[2020-02-13 14:06:00.682819]
+Train size: 64488
+Validation size: 9212
+Test size: 18425
+
+[2020-02-13 14:06:00.683120]
+Collecting the tokens from train set into the vocabularies
+
+[2020-02-13 14:06:01.009598]
+Number of unique input tokens: 6158
+Number of unique output tokens: 5636
+
+[2020-02-13 14:06:01.009814]
+Initializing an empty model
+
+[2020-02-13 14:06:01.042107]
+Seq2Seq(
+  (encoder): EncoderRNN(
+    (embedding): Embedding(6158, 256)
+    (gru): GRU(256, 256)
+  )
+  (decoder): AttnDecoderRNN(
+    (embedding): Embedding(5636, 256)
+    (attn): Linear(in_features=512, out_features=51, bias=True)
+    (attn_combine): Linear(in_features=512, out_features=256, bias=True)
+    (dropout): Dropout(p=0.1, inplace=False)
+    (gru): GRU(256, 256)
+    (out): Linear(in_features=256, out_features=5636, bias=True)
+  )
+  (criterion): NLLLoss()
+)
+
+[2020-02-13 14:06:01.042292]
+Initializing an empty DataFrame for score history
+
+[2020-02-13 14:06:01.044472]
+Setting the number of completed iterations equal to 0
+
+[2020-02-13 14:06:01.044592]
+Setting the total training time equal to 0
+
+[2020-02-13 14:06:01.044711]
+Saving dataset splits and vocabularies
+
+[2020-02-13 14:06:01.044810]
+Saving train, validation, and test methods
+
+[2020-02-13 14:06:01.521452]
+Saving vocabularies
+
+[2020-02-13 14:06:01.569545]
+Converting text to tensors
+
+[2020-02-13 14:06:03.732433]
+Initializing evaluators
+
+[2020-02-13 14:06:03.732670]
+Training the model
+
+[2020-02-13 14:06:49.425783]
+Completed 1000 iterations
+
+[2020-02-13 14:06:49.426062]
+Evaluating on validation set
+
+[2020-02-13 14:11:14.278031]
+Saving the calculated metrics
+
+[2020-02-13 14:11:14.833081]
+Saving the state of training
+
+[2020-02-13 14:11:14.833230]
+Saving the model
+
+[2020-02-13 14:11:14.840579]
+Saving score history
+
+[2020-02-13 14:11:14.841462]
+Saving the number of completed iterations
+
+[2020-02-13 14:11:14.842982]
+Saving the total training time
+
+[2020-02-13 14:12:01.496024]
+Completed 2000 iterations
+
+[2020-02-13 14:12:01.496303]
+Evaluating on validation set
+
+[2020-02-13 14:12:45.202870]
+Saving the calculated metrics
+
+[2020-02-13 14:12:45.636017]
+Saving the state of training
+
+[2020-02-13 14:12:45.636162]
+Saving the model
+
+[2020-02-13 14:12:45.643952]
+Saving score history
+
+[2020-02-13 14:12:45.644864]
+Saving the number of completed iterations
+
+[2020-02-13 14:12:45.647039]
+Saving the total training time
+
+[2020-02-13 14:13:32.740651]
+Completed 3000 iterations
+
+[2020-02-13 14:13:32.740906]
+Evaluating on validation set
+
+[2020-02-13 14:14:17.020263]
+Saving the calculated metrics
+
+[2020-02-13 14:14:17.477434]
+Saving the state of training
+
+[2020-02-13 14:14:17.477570]
+Saving the model
+
+[2020-02-13 14:14:17.485268]
+Saving score history
+
+[2020-02-13 14:14:17.486121]
+Saving the number of completed iterations
+
+[2020-02-13 14:14:17.488556]
+Saving the total training time
+
+[2020-02-13 14:15:05.080605]
+Completed 4000 iterations
+
+[2020-02-13 14:15:05.080878]
+Evaluating on validation set
+
+[2020-02-13 14:15:48.246117]
+Saving the calculated metrics
+
+[2020-02-13 14:15:48.873680]
+Saving the state of training
+
+[2020-02-13 14:15:48.873816]
+Saving the model
+
+[2020-02-13 14:15:48.882206]
+Saving score history
+
+[2020-02-13 14:15:48.883084]
+Saving the number of completed iterations
+
+[2020-02-13 14:15:48.885201]
+Saving the total training time
+
+[2020-02-13 14:16:37.129370]
+Completed 5000 iterations
+
+[2020-02-13 14:16:37.129650]
+Evaluating on validation set
+
+[2020-02-13 14:17:20.882745]
+Saving the calculated metrics
+
+[2020-02-13 14:17:21.338889]
+Saving the state of training
+
+[2020-02-13 14:17:21.339024]
+Saving the model
+
+[2020-02-13 14:17:21.346853]
+Saving score history
+
+[2020-02-13 14:17:21.347713]
+Saving the number of completed iterations
+
+[2020-02-13 14:17:21.349960]
+Saving the total training time
+
+[2020-02-13 14:18:09.272749]
+Completed 6000 iterations
+
+[2020-02-13 14:18:09.273027]
+Evaluating on validation set
+
+[2020-02-13 14:18:52.732416]
+Saving the calculated metrics
+
+[2020-02-13 14:18:53.323770]
+Saving the state of training
+
+[2020-02-13 14:18:53.323915]
+Saving the model
+
+[2020-02-13 14:18:53.331704]
+Saving score history
+
+[2020-02-13 14:18:53.332589]
+Saving the number of completed iterations
+
+[2020-02-13 14:18:53.334873]
+Saving the total training time
+
+[2020-02-13 14:19:40.934730]
+Completed 7000 iterations
+
+[2020-02-13 14:19:40.934999]
+Evaluating on validation set
+
+[2020-02-13 14:20:25.164018]
+Saving the calculated metrics
+
+[2020-02-13 14:20:25.623903]
+Saving the state of training
+
+[2020-02-13 14:20:25.624039]
+Saving the model
+
+[2020-02-13 14:20:25.631875]
+Saving score history
+
+[2020-02-13 14:20:25.632779]
+Saving the number of completed iterations
+
+[2020-02-13 14:20:25.635002]
+Saving the total training time
+
+[2020-02-13 14:21:12.520507]
+Completed 8000 iterations
+
+[2020-02-13 14:21:12.520754]
+Evaluating on validation set
+
+[2020-02-13 14:21:56.296224]
+Saving the calculated metrics
+
+[2020-02-13 14:21:56.911670]
+Saving the state of training
+
+[2020-02-13 14:21:56.911801]
+Saving the model
+
+[2020-02-13 14:21:56.919870]
+Saving score history
+
+[2020-02-13 14:21:56.921017]
+Saving the number of completed iterations
+
+[2020-02-13 14:21:56.922197]
+Saving the total training time
+
+[2020-02-13 14:22:44.126134]
+Completed 9000 iterations
+
+[2020-02-13 14:22:44.126406]
+Evaluating on validation set
+
+[2020-02-13 14:23:28.172711]
+Saving the calculated metrics
+
+[2020-02-13 14:23:28.624054]
+Saving the state of training
+
+[2020-02-13 14:23:28.624197]
+Saving the model
+
+[2020-02-13 14:23:28.632030]
+Saving score history
+
+[2020-02-13 14:23:28.633113]
+Saving the number of completed iterations
+
+[2020-02-13 14:23:28.634875]
+Saving the total training time
+
+[2020-02-13 14:24:18.121205]
+Completed 10000 iterations
+
+[2020-02-13 14:24:18.121484]
+Evaluating on validation set
+
+[2020-02-13 14:25:02.311090]
+Saving the calculated metrics
+
+[2020-02-13 14:25:02.912577]
+Saving the state of training
+
+[2020-02-13 14:25:02.912736]
+Saving the model
+
+[2020-02-13 14:25:02.920663]
+Saving score history
+
+[2020-02-13 14:25:02.921828]
+Saving the number of completed iterations
+
+[2020-02-13 14:25:02.923384]
+Saving the total training time
+
+[2020-02-13 14:25:50.171427]
+Completed 11000 iterations
+
+[2020-02-13 14:25:50.171681]
+Evaluating on validation set
+
+[2020-02-13 14:26:35.614895]
+Saving the calculated metrics
+
+[2020-02-13 14:26:36.066954]
+Saving the state of training
+
+[2020-02-13 14:26:36.067104]
+Saving the model
+
+[2020-02-13 14:26:36.075089]
+Saving score history
+
+[2020-02-13 14:26:36.076181]
+Saving the number of completed iterations
+
+[2020-02-13 14:26:36.077301]
+Saving the total training time
+
+[2020-02-13 14:27:23.170834]
+Completed 12000 iterations
+
+[2020-02-13 14:27:23.171114]
+Evaluating on validation set
+
+[2020-02-13 14:28:07.483824]
+Saving the calculated metrics
+
+[2020-02-13 14:28:08.103489]
+Saving the state of training
+
+[2020-02-13 14:28:08.103657]
+Saving the model
+
+[2020-02-13 14:28:08.111992]
+Saving score history
+
+[2020-02-13 14:28:08.113318]
+Saving the number of completed iterations
+
+[2020-02-13 14:28:08.114623]
+Saving the total training time
+
+[2020-02-13 14:28:56.039543]
+Completed 13000 iterations
+
+[2020-02-13 14:28:56.039821]
+Evaluating on validation set
+
+[2020-02-13 14:29:39.945343]
+Saving the calculated metrics
+
+[2020-02-13 14:29:40.409200]
+Saving the state of training
+
+[2020-02-13 14:29:40.409341]
+Saving the model
+
+[2020-02-13 14:29:40.417020]
+Saving score history
+
+[2020-02-13 14:29:40.418088]
+Saving the number of completed iterations
+
+[2020-02-13 14:29:40.419568]
+Saving the total training time
+
+[2020-02-13 14:30:27.552107]
+Completed 14000 iterations
+
+[2020-02-13 14:30:27.552384]
+Evaluating on validation set
+
+[2020-02-13 14:31:11.762527]
+Saving the calculated metrics
+
+[2020-02-13 14:31:12.387565]
+Saving the state of training
+
+[2020-02-13 14:31:12.387730]
+Saving the model
+
+[2020-02-13 14:31:12.395049]
+Saving score history
+
+[2020-02-13 14:31:12.396133]
+Saving the number of completed iterations
+
+[2020-02-13 14:31:12.397465]
+Saving the total training time
+
+[2020-02-13 14:31:59.914039]
+Completed 15000 iterations
+
+[2020-02-13 14:31:59.914313]
+Evaluating on validation set
+
+[2020-02-13 14:32:45.489082]
+Saving the calculated metrics
+
+[2020-02-13 14:32:45.942317]
+Saving the state of training
+
+[2020-02-13 14:32:45.942451]
+Saving the model
+
+[2020-02-13 14:32:45.950048]
+Saving score history
+
+[2020-02-13 14:32:45.951206]
+Saving the number of completed iterations
+
+[2020-02-13 14:32:45.952820]
+Saving the total training time
+
+[2020-02-13 14:33:33.612943]
+Completed 16000 iterations
+
+[2020-02-13 14:33:33.613205]
+Evaluating on validation set
+
+[2020-02-13 14:34:17.838216]
+Saving the calculated metrics
+
+[2020-02-13 14:34:18.463108]
+Saving the state of training
+
+[2020-02-13 14:34:18.463277]
+Saving the model
+
+[2020-02-13 14:34:18.471740]
+Saving score history
+
+[2020-02-13 14:34:18.472763]
+Saving the number of completed iterations
+
+[2020-02-13 14:34:18.474216]
+Saving the total training time
+
+[2020-02-13 14:35:06.030553]
+Completed 17000 iterations
+
+[2020-02-13 14:35:06.030828]
+Evaluating on validation set
+
+[2020-02-13 14:35:53.422195]
+Saving the calculated metrics
+
+[2020-02-13 14:35:53.881195]
+Saving the state of training
+
+[2020-02-13 14:35:53.881344]
+Saving the model
+
+[2020-02-13 14:35:53.889263]
+Saving score history
+
+[2020-02-13 14:35:53.890386]
+Saving the number of completed iterations
+
+[2020-02-13 14:35:53.891712]
+Saving the total training time
+
+[2020-02-13 14:36:41.392497]
+Completed 18000 iterations
+
+[2020-02-13 14:36:41.392758]
+Evaluating on validation set
+
+[2020-02-13 14:37:27.206764]
+Saving the calculated metrics
+
+[2020-02-13 14:37:27.833707]
+Saving the state of training
+
+[2020-02-13 14:37:27.833874]
+Saving the model
+
+[2020-02-13 14:37:27.841544]
+Saving score history
+
+[2020-02-13 14:37:27.842754]
+Saving the number of completed iterations
+
+[2020-02-13 14:37:27.844378]
+Saving the total training time
+
+[2020-02-13 14:38:15.399262]
+Completed 19000 iterations
+
+[2020-02-13 14:38:15.399532]
+Evaluating on validation set
+
+[2020-02-13 14:39:01.721072]
+Saving the calculated metrics
+
+[2020-02-13 14:39:02.197752]
+Saving the state of training
+
+[2020-02-13 14:39:02.197898]
+Saving the model
+
+[2020-02-13 14:39:02.204825]
+Saving score history
+
+[2020-02-13 14:39:02.205864]
+Saving the number of completed iterations
+
+[2020-02-13 14:39:02.207355]
+Saving the total training time
+
+[2020-02-13 14:39:48.014512]
+Completed 20000 iterations
+
+[2020-02-13 14:39:48.014783]
+Evaluating on validation set
+
+[2020-02-13 14:40:35.120286]
+Saving the calculated metrics
+
+[2020-02-13 14:40:35.771967]
+Saving the state of training
+
+[2020-02-13 14:40:35.772105]
+Saving the model
+
+[2020-02-13 14:40:35.779310]
+Saving score history
+
+[2020-02-13 14:40:35.780439]
+Saving the number of completed iterations
+
+[2020-02-13 14:40:35.781739]
+Saving the total training time
+
+[2020-02-13 14:41:20.705600]
+Completed 21000 iterations
+
+[2020-02-13 14:41:20.705879]
+Evaluating on validation set
+
+[2020-02-13 14:42:06.693529]
+Saving the calculated metrics
+
+[2020-02-13 14:42:07.169182]
+Saving the state of training
+
+[2020-02-13 14:42:07.169365]
+Saving the model
+
+[2020-02-13 14:42:07.176759]
+Saving score history
+
+[2020-02-13 14:42:07.178002]
+Saving the number of completed iterations
+
+[2020-02-13 14:42:07.179623]
+Saving the total training time
+
+[2020-02-13 14:42:52.795937]
+Completed 22000 iterations
+
+[2020-02-13 14:42:52.796209]
+Evaluating on validation set
+
+[2020-02-13 14:43:40.198681]
+Saving the calculated metrics
+
+[2020-02-13 14:43:40.833137]
+Saving the state of training
+
+[2020-02-13 14:43:40.833317]
+Saving the model
+
+[2020-02-13 14:43:40.841573]
+Saving score history
+
+[2020-02-13 14:43:40.843539]
+Saving the number of completed iterations
+
+[2020-02-13 14:43:40.843756]
+Saving the total training time
+
+[2020-02-13 14:44:30.688607]
+Completed 23000 iterations
+
+[2020-02-13 14:44:30.688884]
+Evaluating on validation set
+
+[2020-02-13 14:45:16.227303]
+Saving the calculated metrics
+
+[2020-02-13 14:45:16.663803]
+Saving the state of training
+
+[2020-02-13 14:45:16.663945]
+Saving the model
+
+[2020-02-13 14:45:16.671362]
+Saving score history
+
+[2020-02-13 14:45:16.672444]
+Saving the number of completed iterations
+
+[2020-02-13 14:45:16.674274]
+Saving the total training time
+
+[2020-02-13 14:46:03.530715]
+Completed 24000 iterations
+
+[2020-02-13 14:46:03.530989]
+Evaluating on validation set
+
+[2020-02-13 14:46:52.365995]
+Saving the calculated metrics
+
+[2020-02-13 14:46:52.979591]
+Saving the state of training
+
+[2020-02-13 14:46:52.979730]
+Saving the model
+
+[2020-02-13 14:46:52.987164]
+Saving score history
+
+[2020-02-13 14:46:52.988292]
+Saving the number of completed iterations
+
+[2020-02-13 14:46:52.989935]
+Saving the total training time
+
+[2020-02-13 14:47:39.744470]
+Completed 25000 iterations
+
+[2020-02-13 14:47:39.744744]
+Evaluating on validation set
+
+[2020-02-13 14:48:25.844666]
+Saving the calculated metrics
+
+[2020-02-13 14:48:26.292275]
+Saving the state of training
+
+[2020-02-13 14:48:26.292408]
+Saving the model
+
+[2020-02-13 14:48:26.300484]
+Saving score history
+
+[2020-02-13 14:48:26.301774]
+Saving the number of completed iterations
+
+[2020-02-13 14:48:26.303244]
+Saving the total training time
+
+[2020-02-13 14:49:14.052823]
+Completed 26000 iterations
+
+[2020-02-13 14:49:14.053093]
+Evaluating on validation set
+
+[2020-02-13 14:50:00.563313]
+Saving the calculated metrics
+
+[2020-02-13 14:50:01.186322]
+Saving the state of training
+
+[2020-02-13 14:50:01.186470]
+Saving the model
+
+[2020-02-13 14:50:01.194069]
+Saving score history
+
+[2020-02-13 14:50:01.195465]
+Saving the number of completed iterations
+
+[2020-02-13 14:50:01.197068]
+Saving the total training time
+
+[2020-02-13 14:50:47.497271]
+Completed 27000 iterations
+
+[2020-02-13 14:50:47.497548]
+Evaluating on validation set
+
+[2020-02-13 14:51:35.238073]
+Saving the calculated metrics
+
+[2020-02-13 14:51:35.689533]
+Saving the state of training
+
+[2020-02-13 14:51:35.689690]
+Saving the model
+
+[2020-02-13 14:51:35.697769]
+Saving score history
+
+[2020-02-13 14:51:35.698948]
+Saving the number of completed iterations
+
+[2020-02-13 14:51:35.700692]
+Saving the total training time
+
+[2020-02-13 14:52:23.719837]
+Completed 28000 iterations
+
+[2020-02-13 14:52:23.720105]
+Evaluating on validation set
+
+[2020-02-13 14:53:09.587841]
+Saving the calculated metrics
+
+[2020-02-13 14:53:10.217904]
+Saving the state of training
+
+[2020-02-13 14:53:10.218037]
+Saving the model
+
+[2020-02-13 14:53:10.225632]
+Saving score history
+
+[2020-02-13 14:53:10.226705]
+Saving the number of completed iterations
+
+[2020-02-13 14:53:10.227991]
+Saving the total training time
+
+[2020-02-13 14:53:58.104911]
+Completed 29000 iterations
+
+[2020-02-13 14:53:58.105183]
+Evaluating on validation set
+
+[2020-02-13 14:54:49.166398]
+Saving the calculated metrics
+
+[2020-02-13 14:54:49.612305]
+Saving the state of training
+
+[2020-02-13 14:54:49.612443]
+Saving the model
+
+[2020-02-13 14:54:49.620215]
+Saving score history
+
+[2020-02-13 14:54:49.621438]
+Saving the number of completed iterations
+
+[2020-02-13 14:54:49.623088]
+Saving the total training time
+
+[2020-02-13 14:55:38.673428]
+Completed 30000 iterations
+
+[2020-02-13 14:55:38.673703]
+Evaluating on validation set
+
+[2020-02-13 14:56:26.061436]
+Saving the calculated metrics
+
+[2020-02-13 14:56:26.687569]
+Saving the state of training
+
+[2020-02-13 14:56:26.687700]
+Saving the model
+
+[2020-02-13 14:56:26.695043]
+Saving score history
+
+[2020-02-13 14:56:26.696176]
+Saving the number of completed iterations
+
+[2020-02-13 14:56:26.698110]
+Saving the total training time
+
+[2020-02-13 14:57:13.567647]
+Completed 31000 iterations
+
+[2020-02-13 14:57:13.567926]
+Evaluating on validation set
+
+[2020-02-13 14:58:04.259672]
+Saving the calculated metrics
+
+[2020-02-13 14:58:04.714344]
+Saving the state of training
+
+[2020-02-13 14:58:04.714478]
+Saving the model
+
+[2020-02-13 14:58:04.722131]
+Saving score history
+
+[2020-02-13 14:58:04.723325]
+Saving the number of completed iterations
+
+[2020-02-13 14:58:04.724897]
+Saving the total training time
+
+[2020-02-13 14:58:51.501104]
+Completed 32000 iterations
+
+[2020-02-13 14:58:51.501369]
+Evaluating on validation set
+
+[2020-02-13 14:59:38.341130]
+Saving the calculated metrics
+
+[2020-02-13 14:59:38.973443]
+Saving the state of training
+
+[2020-02-13 14:59:38.973578]
+Saving the model
+
+[2020-02-13 14:59:38.981252]
+Saving score history
+
+[2020-02-13 14:59:38.982564]
+Saving the number of completed iterations
+
+[2020-02-13 14:59:38.983972]
+Saving the total training time
+
+[2020-02-13 15:00:27.593858]
+Completed 33000 iterations
+
+[2020-02-13 15:00:27.594119]
+Evaluating on validation set
+
+[2020-02-13 15:01:16.531123]
+Saving the calculated metrics
+
+[2020-02-13 15:01:16.978213]
+Saving the state of training
+
+[2020-02-13 15:01:16.978346]
+Saving the model
+
+[2020-02-13 15:01:16.986098]
+Saving score history
+
+[2020-02-13 15:01:16.987407]
+Saving the number of completed iterations
+
+[2020-02-13 15:01:16.988846]
+Saving the total training time
+
+[2020-02-13 15:02:05.370176]
+Completed 34000 iterations
+
+[2020-02-13 15:02:05.370410]
+Evaluating on validation set
+
+[2020-02-13 15:02:54.178220]
+Saving the calculated metrics
+
+[2020-02-13 15:02:54.824845]
+Saving the state of training
+
+[2020-02-13 15:02:54.824982]
+Saving the model
+
+[2020-02-13 15:02:54.832619]
+Saving score history
+
+[2020-02-13 15:02:54.833771]
+Saving the number of completed iterations
+
+[2020-02-13 15:02:54.835406]
+Saving the total training time
+
+[2020-02-13 15:03:41.584802]
+Completed 35000 iterations
+
+[2020-02-13 15:03:41.585070]
+Evaluating on validation set
+
+[2020-02-13 15:04:29.391954]
+Saving the calculated metrics
+
+[2020-02-13 15:04:29.905456]
+Saving the state of training
+
+[2020-02-13 15:04:29.905610]
+Saving the model
+
+[2020-02-13 15:04:29.912768]
+Saving score history
+
+[2020-02-13 15:04:29.914040]
+Saving the number of completed iterations
+
+[2020-02-13 15:04:29.915180]
+Saving the total training time
+
+[2020-02-13 15:05:18.485629]
+Completed 36000 iterations
+
+[2020-02-13 15:05:18.485938]
+Evaluating on validation set
+
+[2020-02-13 15:06:08.576478]
+Saving the calculated metrics
+
+[2020-02-13 15:06:09.227941]
+Saving the state of training
+
+[2020-02-13 15:06:09.228090]
+Saving the model
+
+[2020-02-13 15:06:09.235586]
+Saving score history
+
+[2020-02-13 15:06:09.236825]
+Saving the number of completed iterations
+
+[2020-02-13 15:06:09.238456]
+Saving the total training time
+
+[2020-02-13 15:06:58.184763]
+Completed 37000 iterations
+
+[2020-02-13 15:06:58.185037]
+Evaluating on validation set
+
+[2020-02-13 15:07:47.414665]
+Saving the calculated metrics
+
+[2020-02-13 15:07:47.892659]
+Saving the state of training
+
+[2020-02-13 15:07:47.892795]
+Saving the model
+
+[2020-02-13 15:07:47.900588]
+Saving score history
+
+[2020-02-13 15:07:47.902072]
+Saving the number of completed iterations
+
+[2020-02-13 15:07:47.903198]
+Saving the total training time
+
+[2020-02-13 15:08:34.356578]
+Completed 38000 iterations
+
+[2020-02-13 15:08:34.356853]
+Evaluating on validation set
+
+[2020-02-13 15:09:22.004646]
+Saving the calculated metrics
+
+[2020-02-13 15:09:22.656543]
+Saving the state of training
+
+[2020-02-13 15:09:22.656678]
+Saving the model
+
+[2020-02-13 15:09:22.664367]
+Saving score history
+
+[2020-02-13 15:09:22.665590]
+Saving the number of completed iterations
+
+[2020-02-13 15:09:22.667267]
+Saving the total training time
+
+[2020-02-13 15:10:11.476520]
+Completed 39000 iterations
+
+[2020-02-13 15:10:11.476773]
+Evaluating on validation set
+
+[2020-02-13 15:10:59.666211]
+Saving the calculated metrics
+
+[2020-02-13 15:11:00.145031]
+Saving the state of training
+
+[2020-02-13 15:11:00.145171]
+Saving the model
+
+[2020-02-13 15:11:00.152608]
+Saving score history
+
+[2020-02-13 15:11:00.153821]
+Saving the number of completed iterations
+
+[2020-02-13 15:11:00.155306]
+Saving the total training time
+
+[2020-02-13 15:11:46.643654]
+Completed 40000 iterations
+
+[2020-02-13 15:11:46.643933]
+Evaluating on validation set
+
+[2020-02-13 15:12:36.065657]
+Saving the calculated metrics
+
+[2020-02-13 15:12:36.716212]
+Saving the state of training
+
+[2020-02-13 15:12:36.716352]
+Saving the model
+
+[2020-02-13 15:12:36.724407]
+Saving score history
+
+[2020-02-13 15:12:36.725748]
+Saving the number of completed iterations
+
+[2020-02-13 15:12:36.727206]
+Saving the total training time
+
+[2020-02-13 15:13:25.064586]
+Completed 41000 iterations
+
+[2020-02-13 15:13:25.064842]
+Evaluating on validation set
+
+[2020-02-13 15:14:12.427486]
+Saving the calculated metrics
+
+[2020-02-13 15:14:12.908193]
+Saving the state of training
+
+[2020-02-13 15:14:12.908329]
+Saving the model
+
+[2020-02-13 15:14:12.916335]
+Saving score history
+
+[2020-02-13 15:14:12.917521]
+Saving the number of completed iterations
+
+[2020-02-13 15:14:12.919552]
+Saving the total training time
+
+[2020-02-13 15:14:58.678639]
+Completed 42000 iterations
+
+[2020-02-13 15:14:58.678910]
+Evaluating on validation set
+
+[2020-02-13 15:15:46.030926]
+Saving the calculated metrics
+
+[2020-02-13 15:15:46.636924]
+Saving the state of training
+
+[2020-02-13 15:15:46.637059]
+Saving the model
+
+[2020-02-13 15:15:46.644763]
+Saving score history
+
+[2020-02-13 15:15:46.646191]
+Saving the number of completed iterations
+
+[2020-02-13 15:15:46.647515]
+Saving the total training time
+
+[2020-02-13 15:16:34.339954]
+Completed 43000 iterations
+
+[2020-02-13 15:16:34.340225]
+Evaluating on validation set
+
+[2020-02-13 15:17:22.135523]
+Saving the calculated metrics
+
+[2020-02-13 15:17:22.569973]
+Saving the state of training
+
+[2020-02-13 15:17:22.570111]
+Saving the model
+
+[2020-02-13 15:17:22.577929]
+Saving score history
+
+[2020-02-13 15:17:22.579335]
+Saving the number of completed iterations
+
+[2020-02-13 15:17:22.580812]
+Saving the total training time
+
+[2020-02-13 15:18:10.799757]
+Completed 44000 iterations
+
+[2020-02-13 15:18:10.800018]
+Evaluating on validation set
+
+[2020-02-13 15:18:59.765779]
+Saving the calculated metrics
+
+[2020-02-13 15:19:00.371258]
+Saving the state of training
+
+[2020-02-13 15:19:00.371395]
+Saving the model
+
+[2020-02-13 15:19:00.379409]
+Saving score history
+
+[2020-02-13 15:19:00.380781]
+Saving the number of completed iterations
+
+[2020-02-13 15:19:00.382379]
+Saving the total training time
+
+[2020-02-13 15:19:46.759371]
+Completed 45000 iterations
+
+[2020-02-13 15:19:46.759648]
+Evaluating on validation set
+
+[2020-02-13 15:20:34.451018]
+Saving the calculated metrics
+
+[2020-02-13 15:20:34.875906]
+Saving the state of training
+
+[2020-02-13 15:20:34.876082]
+Saving the model
+
+[2020-02-13 15:20:34.884254]
+Saving score history
+
+[2020-02-13 15:20:34.885515]
+Saving the number of completed iterations
+
+[2020-02-13 15:20:34.887484]
+Saving the total training time
+
+[2020-02-13 15:21:22.431694]
+Completed 46000 iterations
+
+[2020-02-13 15:21:22.431968]
+Evaluating on validation set
+
+[2020-02-13 15:22:09.912908]
+Saving the calculated metrics
+
+[2020-02-13 15:22:10.528692]
+Saving the state of training
+
+[2020-02-13 15:22:10.528848]
+Saving the model
+
+[2020-02-13 15:22:10.536860]
+Saving score history
+
+[2020-02-13 15:22:10.538294]
+Saving the number of completed iterations
+
+[2020-02-13 15:22:10.539208]
+Saving the total training time
+
+[2020-02-13 15:22:57.500575]
+Completed 47000 iterations
+
+[2020-02-13 15:22:57.500856]
+Evaluating on validation set
+
+[2020-02-13 15:23:46.822432]
+Saving the calculated metrics
+
+[2020-02-13 15:23:47.248267]
+Saving the state of training
+
+[2020-02-13 15:23:47.248397]
+Saving the model
+
+[2020-02-13 15:23:47.256197]
+Saving score history
+
+[2020-02-13 15:23:47.257823]
+Saving the number of completed iterations
+
+[2020-02-13 15:23:47.258641]
+Saving the total training time
+
+[2020-02-13 15:24:35.730007]
+Completed 48000 iterations
+
+[2020-02-13 15:24:35.730257]
+Evaluating on validation set
+
+[2020-02-13 15:25:24.616850]
+Saving the calculated metrics
+
+[2020-02-13 15:25:25.216603]
+Saving the state of training
+
+[2020-02-13 15:25:25.216742]
+Saving the model
+
+[2020-02-13 15:25:25.224504]
+Saving score history
+
+[2020-02-13 15:25:25.226053]
+Saving the number of completed iterations
+
+[2020-02-13 15:25:25.227429]
+Saving the total training time
+
+[2020-02-13 15:26:13.103167]
+Completed 49000 iterations
+
+[2020-02-13 15:26:13.103443]
+Evaluating on validation set
+
+[2020-02-13 15:27:02.118065]
+Saving the calculated metrics
+
+[2020-02-13 15:27:02.561768]
+Saving the state of training
+
+[2020-02-13 15:27:02.561903]
+Saving the model
+
+[2020-02-13 15:27:02.569600]
+Saving score history
+
+[2020-02-13 15:27:02.571077]
+Saving the number of completed iterations
+
+[2020-02-13 15:27:02.572186]
+Saving the total training time
+
+[2020-02-13 15:27:49.683335]
+Completed 50000 iterations
+
+[2020-02-13 15:27:49.683591]
+Evaluating on validation set
+
+[2020-02-13 15:28:38.350635]
+Saving the calculated metrics
+
+[2020-02-13 15:28:38.961241]
+Saving the state of training
+
+[2020-02-13 15:28:38.961383]
+Saving the model
+
+[2020-02-13 15:28:38.969184]
+Saving score history
+
+[2020-02-13 15:28:38.970657]
+Saving the number of completed iterations
+
+[2020-02-13 15:28:38.972000]
+Saving the total training time
+
+[2020-02-13 15:29:28.592908]
+Completed 51000 iterations
+
+[2020-02-13 15:29:28.593192]
+Evaluating on validation set
+
+[2020-02-13 15:30:18.851512]
+Saving the calculated metrics
+
+[2020-02-13 15:30:19.296622]
+Saving the state of training
+
+[2020-02-13 15:30:19.296758]
+Saving the model
+
+[2020-02-13 15:30:19.304460]
+Saving score history
+
+[2020-02-13 15:30:19.305927]
+Saving the number of completed iterations
+
+[2020-02-13 15:30:19.307176]
+Saving the total training time
+
+[2020-02-13 15:31:06.448941]
+Completed 52000 iterations
+
+[2020-02-13 15:31:06.449214]
+Evaluating on validation set
+
+[2020-02-13 15:31:54.673652]
+Saving the calculated metrics
+
+[2020-02-13 15:31:55.107042]
+Saving the state of training
+
+[2020-02-13 15:31:55.107200]
+Saving the model
+
+[2020-02-13 15:31:55.115475]
+Saving score history
+
+[2020-02-13 15:31:55.116817]
+Saving the number of completed iterations
+
+[2020-02-13 15:31:55.118550]
+Saving the total training time
+
+[2020-02-13 15:32:41.730354]
+Completed 53000 iterations
+
+[2020-02-13 15:32:41.730623]
+Evaluating on validation set
+
+[2020-02-13 15:33:31.635158]
+Saving the calculated metrics
+
+[2020-02-13 15:33:32.074296]
+Saving the state of training
+
+[2020-02-13 15:33:32.074453]
+Saving the model
+
+[2020-02-13 15:33:32.082151]
+Saving score history
+
+[2020-02-13 15:33:32.083735]
+Saving the number of completed iterations
+
+[2020-02-13 15:33:32.084899]
+Saving the total training time
+
+[2020-02-13 15:34:18.864535]
+Completed 54000 iterations
+
+[2020-02-13 15:34:18.864798]
+Evaluating on validation set
+
+[2020-02-13 15:35:07.314128]
+Saving the calculated metrics
+
+[2020-02-13 15:35:07.757528]
+Saving the state of training
+
+[2020-02-13 15:35:07.757682]
+Saving the model
+
+[2020-02-13 15:35:07.765447]
+Saving score history
+
+[2020-02-13 15:35:07.766957]
+Saving the number of completed iterations
+
+[2020-02-13 15:35:07.768201]
+Saving the total training time
+
+[2020-02-13 15:35:55.729370]
+Completed 55000 iterations
+
+[2020-02-13 15:35:55.729629]
+Evaluating on validation set
+
+[2020-02-13 15:36:43.751905]
+Saving the calculated metrics
+
+[2020-02-13 15:36:44.189851]
+Saving the state of training
+
+[2020-02-13 15:36:44.190001]
+Saving the model
+
+[2020-02-13 15:36:44.198023]
+Saving score history
+
+[2020-02-13 15:36:44.199561]
+Saving the number of completed iterations
+
+[2020-02-13 15:36:44.200724]
+Saving the total training time
+
+[2020-02-13 15:37:31.886966]
+Completed 56000 iterations
+
+[2020-02-13 15:37:31.887244]
+Evaluating on validation set
+
+[2020-02-13 15:38:20.214192]
+Saving the calculated metrics
+
+[2020-02-13 15:38:20.648574]
+Saving the state of training
+
+[2020-02-13 15:38:20.648775]
+Saving the model
+
+[2020-02-13 15:38:20.657722]
+Saving score history
+
+[2020-02-13 15:38:20.659077]
+Saving the number of completed iterations
+
+[2020-02-13 15:38:20.660135]
+Saving the total training time
+
+[2020-02-13 15:39:07.905847]
+Completed 57000 iterations
+
+[2020-02-13 15:39:07.906124]
+Evaluating on validation set
+
+[2020-02-13 15:39:58.219677]
+Saving the calculated metrics
+
+[2020-02-13 15:39:58.666531]
+Saving the state of training
+
+[2020-02-13 15:39:58.666668]
+Saving the model
+
+[2020-02-13 15:39:58.674460]
+Saving score history
+
+[2020-02-13 15:39:58.675876]
+Saving the number of completed iterations
+
+[2020-02-13 15:39:58.677383]
+Saving the total training time
+
+[2020-02-13 15:40:47.441624]
+Completed 58000 iterations
+
+[2020-02-13 15:40:47.441900]
+Evaluating on validation set
+
+[2020-02-13 15:41:38.249023]
+Saving the calculated metrics
+
+[2020-02-13 15:41:38.690104]
+Saving the state of training
+
+[2020-02-13 15:41:38.690250]
+Saving the model
+
+[2020-02-13 15:41:38.698112]
+Saving score history
+
+[2020-02-13 15:41:38.699712]
+Saving the number of completed iterations
+
+[2020-02-13 15:41:38.700777]
+Saving the total training time
+
+[2020-02-13 15:42:25.463905]
+Completed 59000 iterations
+
+[2020-02-13 15:42:25.464179]
+Evaluating on validation set
+
+[2020-02-13 15:43:13.771378]
+Saving the calculated metrics
+
+[2020-02-13 15:43:14.226058]
+Saving the state of training
+
+[2020-02-13 15:43:14.226195]
+Saving the model
+
+[2020-02-13 15:43:14.233864]
+Saving score history
+
+[2020-02-13 15:43:14.235328]
+Saving the number of completed iterations
+
+[2020-02-13 15:43:14.236739]
+Saving the total training time
+
+[2020-02-13 15:44:02.080383]
+Completed 60000 iterations
+
+[2020-02-13 15:44:02.080658]
+Evaluating on validation set
+
+[2020-02-13 15:44:51.072508]
+Saving the calculated metrics
+
+[2020-02-13 15:44:51.522024]
+Saving the state of training
+
+[2020-02-13 15:44:51.522171]
+Saving the model
+
+[2020-02-13 15:44:51.529790]
+Saving score history
+
+[2020-02-13 15:44:51.531462]
+Saving the number of completed iterations
+
+[2020-02-13 15:44:51.532189]
+Saving the total training time
+
+[2020-02-13 15:45:37.780943]
+Completed 61000 iterations
+
+[2020-02-13 15:45:37.781217]
+Evaluating on validation set
+
+[2020-02-13 15:46:28.988550]
+Saving the calculated metrics
+
+[2020-02-13 15:46:29.444433]
+Saving the state of training
+
+[2020-02-13 15:46:29.444571]
+Saving the model
+
+[2020-02-13 15:46:29.452445]
+Saving score history
+
+[2020-02-13 15:46:29.453960]
+Saving the number of completed iterations
+
+[2020-02-13 15:46:29.455263]
+Saving the total training time
+
+[2020-02-13 15:47:16.752173]
+Completed 62000 iterations
+
+[2020-02-13 15:47:16.752447]
+Evaluating on validation set
+
+[2020-02-13 15:48:05.307637]
+Saving the calculated metrics
+
+[2020-02-13 15:48:05.768129]
+Saving the state of training
+
+[2020-02-13 15:48:05.768386]
+Saving the model
+
+[2020-02-13 15:48:05.775798]
+Saving score history
+
+[2020-02-13 15:48:05.777153]
+Saving the number of completed iterations
+
+[2020-02-13 15:48:05.778237]
+Saving the total training time
+
+[2020-02-13 15:48:54.224934]
+Completed 63000 iterations
+
+[2020-02-13 15:48:54.225202]
+Evaluating on validation set
+
+[2020-02-13 15:49:44.259286]
+Saving the calculated metrics
+
+[2020-02-13 15:49:44.714781]
+Saving the state of training
+
+[2020-02-13 15:49:44.714928]
+Saving the model
+
+[2020-02-13 15:49:44.723213]
+Saving score history
+
+[2020-02-13 15:49:44.724899]
+Saving the number of completed iterations
+
+[2020-02-13 15:49:44.725915]
+Saving the total training time
+
+[2020-02-13 15:50:32.071339]
+Completed 64000 iterations
+
+[2020-02-13 15:50:32.071611]
+Evaluating on validation set
+
+[2020-02-13 15:51:20.212325]
+Saving the calculated metrics
+
+[2020-02-13 15:51:20.672486]
+Saving the state of training
+
+[2020-02-13 15:51:20.672637]
+Saving the model
+
+[2020-02-13 15:51:20.680407]
+Saving score history
+
+[2020-02-13 15:51:20.681826]
+Saving the number of completed iterations
+
+[2020-02-13 15:51:20.683342]
+Saving the total training time
+
+[2020-02-13 15:52:08.694857]
+Completed 65000 iterations
+
+[2020-02-13 15:52:08.695131]
+Evaluating on validation set
+
+[2020-02-13 15:53:00.934895]
+Saving the calculated metrics
+
+[2020-02-13 15:53:01.392739]
+Saving the state of training
+
+[2020-02-13 15:53:01.392977]
+Saving the model
+
+[2020-02-13 15:53:01.400849]
+Saving score history
+
+[2020-02-13 15:53:01.402353]
+Saving the number of completed iterations
+
+[2020-02-13 15:53:01.403519]
+Saving the total training time
+
+[2020-02-13 15:53:48.617505]
+Completed 66000 iterations
+
+[2020-02-13 15:53:48.617750]
+Evaluating on validation set
+
+[2020-02-13 15:54:36.615173]
+Saving the calculated metrics
+
+[2020-02-13 15:54:37.076362]
+Saving the state of training
+
+[2020-02-13 15:54:37.076509]
+Saving the model
+
+[2020-02-13 15:54:37.084209]
+Saving score history
+
+[2020-02-13 15:54:37.085757]
+Saving the number of completed iterations
+
+[2020-02-13 15:54:37.086969]
+Saving the total training time
+
+[2020-02-13 15:55:24.003887]
+Completed 67000 iterations
+
+[2020-02-13 15:55:24.004165]
+Evaluating on validation set
+
+[2020-02-13 15:56:13.003691]
+Saving the calculated metrics
+
+[2020-02-13 15:56:13.463629]
+Saving the state of training
+
+[2020-02-13 15:56:13.463766]
+Saving the model
+
+[2020-02-13 15:56:13.471656]
+Saving score history
+
+[2020-02-13 15:56:13.473081]
+Saving the number of completed iterations
+
+[2020-02-13 15:56:13.474532]
+Saving the total training time
+
+[2020-02-13 15:57:01.066424]
+Completed 68000 iterations
+
+[2020-02-13 15:57:01.066692]
+Evaluating on validation set
+
+[2020-02-13 15:57:49.973029]
+Saving the calculated metrics
+
+[2020-02-13 15:57:50.444283]
+Saving the state of training
+
+[2020-02-13 15:57:50.444415]
+Saving the model
+
+[2020-02-13 15:57:50.452548]
+Saving score history
+
+[2020-02-13 15:57:50.453960]
+Saving the number of completed iterations
+
+[2020-02-13 15:57:50.455308]
+Saving the total training time
+
+[2020-02-13 15:58:38.246812]
+Completed 69000 iterations
+
+[2020-02-13 15:58:38.247088]
+Evaluating on validation set
+
+[2020-02-13 15:59:27.427759]
+Saving the calculated metrics
+
+[2020-02-13 15:59:27.897160]
+Saving the state of training
+
+[2020-02-13 15:59:27.897298]
+Saving the model
+
+[2020-02-13 15:59:27.905013]
+Saving score history
+
+[2020-02-13 15:59:27.906493]
+Saving the number of completed iterations
+
+[2020-02-13 15:59:27.907854]
+Saving the total training time
+
+[2020-02-13 16:00:15.006730]
+Completed 70000 iterations
+
+[2020-02-13 16:00:15.007004]
+Evaluating on validation set
+
+[2020-02-13 16:01:04.359040]
+Saving the calculated metrics
+
+[2020-02-13 16:01:04.823693]
+Saving the state of training
+
+[2020-02-13 16:01:04.823829]
+Saving the model
+
+[2020-02-13 16:01:04.832157]
+Saving score history
+
+[2020-02-13 16:01:04.833615]
+Saving the number of completed iterations
+
+[2020-02-13 16:01:04.835174]
+Saving the total training time
+
+[2020-02-13 16:01:52.738301]
+Completed 71000 iterations
+
+[2020-02-13 16:01:52.738574]
+Evaluating on validation set
+
+[2020-02-13 16:02:41.769201]
+Saving the calculated metrics
+
+[2020-02-13 16:02:42.236997]
+Saving the state of training
+
+[2020-02-13 16:02:42.237154]
+Saving the model
+
+[2020-02-13 16:02:42.244944]
+Saving score history
+
+[2020-02-13 16:02:42.246450]
+Saving the number of completed iterations
+
+[2020-02-13 16:02:42.247367]
+Saving the total training time
+
+[2020-02-13 16:03:31.422921]
+Completed 72000 iterations
+
+[2020-02-13 16:03:31.423197]
+Evaluating on validation set
+
+[2020-02-13 16:04:20.516465]
+Saving the calculated metrics
+
+[2020-02-13 16:04:20.980183]
+Saving the state of training
+
+[2020-02-13 16:04:20.980319]
+Saving the model
+
+[2020-02-13 16:04:20.988708]
+Saving score history
+
+[2020-02-13 16:04:20.990241]
+Saving the number of completed iterations
+
+[2020-02-13 16:04:20.991430]
+Saving the total training time
+
+[2020-02-13 16:05:10.199773]
+Completed 73000 iterations
+
+[2020-02-13 16:05:10.200038]
+Evaluating on validation set
+
+[2020-02-13 16:06:00.976959]
+Saving the calculated metrics
+
+[2020-02-13 16:06:01.453557]
+Saving the state of training
+
+[2020-02-13 16:06:01.453694]
+Saving the model
+
+[2020-02-13 16:06:01.461804]
+Saving score history
+
+[2020-02-13 16:06:01.463317]
+Saving the number of completed iterations
+
+[2020-02-13 16:06:01.464728]
+Saving the total training time
+
+[2020-02-13 16:06:47.709539]
+Completed 74000 iterations
+
+[2020-02-13 16:06:47.709811]
+Evaluating on validation set
+
+[2020-02-13 16:07:36.844019]
+Saving the calculated metrics
+
+[2020-02-13 16:07:37.312145]
+Saving the state of training
+
+[2020-02-13 16:07:37.312277]
+Saving the model
+
+[2020-02-13 16:07:37.319996]
+Saving score history
+
+[2020-02-13 16:07:37.321560]
+Saving the number of completed iterations
+
+[2020-02-13 16:07:37.322700]
+Saving the total training time
+
+[2020-02-13 16:08:26.452218]
+Completed 75000 iterations
+
+[2020-02-13 16:08:26.452492]
+Evaluating on validation set
+
+[2020-02-13 16:09:17.108166]
+Saving the calculated metrics
+
+[2020-02-13 16:09:17.582078]
+Saving the state of training
+
+[2020-02-13 16:09:17.582214]
+Saving the model
+
+[2020-02-13 16:09:17.590167]
+Saving score history
+
+[2020-02-13 16:09:17.592375]
+Saving the number of completed iterations
+
+[2020-02-13 16:09:17.592949]
+Saving the total training time
+
+[2020-02-13 16:10:04.975341]
+Completed 76000 iterations
+
+[2020-02-13 16:10:04.975615]
+Evaluating on validation set
+
+[2020-02-13 16:10:55.182004]
+Saving the calculated metrics
+
+[2020-02-13 16:10:55.817885]
+Saving the state of training
+
+[2020-02-13 16:10:55.818034]
+Saving the model
+
+[2020-02-13 16:10:55.825723]
+Saving score history
+
+[2020-02-13 16:10:55.827472]
+Saving the number of completed iterations
+
+[2020-02-13 16:10:55.828090]
+Saving the total training time
+
+[2020-02-13 16:11:46.969030]
+Completed 77000 iterations
+
+[2020-02-13 16:11:46.969311]
+Evaluating on validation set
+
+[2020-02-13 16:12:38.586117]
+Saving the calculated metrics
+
+[2020-02-13 16:12:39.053801]
+Saving the state of training
+
+[2020-02-13 16:12:39.053939]
+Saving the model
+
+[2020-02-13 16:12:39.061887]
+Saving score history
+
+[2020-02-13 16:12:39.063504]
+Saving the number of completed iterations
+
+[2020-02-13 16:12:39.064434]
+Saving the total training time
+
+[2020-02-13 16:13:25.893482]
+Completed 78000 iterations
+
+[2020-02-13 16:13:25.893718]
+Evaluating on validation set
+
+[2020-02-13 16:14:15.536518]
+Saving the calculated metrics
+
+[2020-02-13 16:14:16.169790]
+Saving the state of training
+
+[2020-02-13 16:14:16.169938]
+Saving the model
+
+[2020-02-13 16:14:16.177799]
+Saving score history
+
+[2020-02-13 16:14:16.179476]
+Saving the number of completed iterations
+
+[2020-02-13 16:14:16.180141]
+Saving the total training time
+
+[2020-02-13 16:15:05.832517]
+Completed 79000 iterations
+
+[2020-02-13 16:15:05.832800]
+Evaluating on validation set
+
+[2020-02-13 16:15:55.218113]
+Saving the calculated metrics
+
+[2020-02-13 16:15:55.688221]
+Saving the state of training
+
+[2020-02-13 16:15:55.688421]
+Saving the model
+
+[2020-02-13 16:15:55.697043]
+Saving score history
+
+[2020-02-13 16:15:55.698804]
+Saving the number of completed iterations
+
+[2020-02-13 16:15:55.699542]
+Saving the total training time
+
+[2020-02-13 16:16:43.499310]
+Completed 80000 iterations
+
+[2020-02-13 16:16:43.499576]
+Evaluating on validation set
+
+[2020-02-13 16:17:32.725855]
+Saving the calculated metrics
+
+[2020-02-13 16:17:33.367701]
+Saving the state of training
+
+[2020-02-13 16:17:33.367849]
+Saving the model
+
+[2020-02-13 16:17:33.375702]
+Saving score history
+
+[2020-02-13 16:17:33.377455]
+Saving the number of completed iterations
+
+[2020-02-13 16:17:33.378204]
+Saving the total training time
+
+[2020-02-13 16:18:25.122338]
+Completed 81000 iterations
+
+[2020-02-13 16:18:25.122584]
+Evaluating on validation set
+
+[2020-02-13 16:19:16.913873]
+Saving the calculated metrics
+
+[2020-02-13 16:19:17.376780]
+Saving the state of training
+
+[2020-02-13 16:19:17.376941]
+Saving the model
+
+[2020-02-13 16:19:17.384699]
+Saving score history
+
+[2020-02-13 16:19:17.386350]
+Saving the number of completed iterations
+
+[2020-02-13 16:19:17.387397]
+Saving the total training time
+
+[2020-02-13 16:20:05.880220]
+Completed 82000 iterations
+
+[2020-02-13 16:20:05.880498]
+Evaluating on validation set
+
+[2020-02-13 16:20:56.377226]
+Saving the calculated metrics
+
+[2020-02-13 16:20:57.018856]
+Saving the state of training
+
+[2020-02-13 16:20:57.019001]
+Saving the model
+
+[2020-02-13 16:20:57.026905]
+Saving score history
+
+[2020-02-13 16:20:57.028653]
+Saving the number of completed iterations
+
+[2020-02-13 16:20:57.029459]
+Saving the total training time
+
+[2020-02-13 16:21:48.531340]
+Completed 83000 iterations
+
+[2020-02-13 16:21:48.531619]
+Evaluating on validation set
+
+[2020-02-13 16:22:38.638790]
+Saving the calculated metrics
+
+[2020-02-13 16:22:39.072149]
+Saving the state of training
+
+[2020-02-13 16:22:39.072316]
+Saving the model
+
+[2020-02-13 16:22:39.080510]
+Saving score history
+
+[2020-02-13 16:22:39.082221]
+Saving the number of completed iterations
+
+[2020-02-13 16:22:39.082915]
+Saving the total training time
+
+[2020-02-13 16:23:27.406031]
+Completed 84000 iterations
+
+[2020-02-13 16:23:27.406299]
+Evaluating on validation set
+
+[2020-02-13 16:24:16.634961]
+Saving the calculated metrics
+
+[2020-02-13 16:24:17.061115]
+Saving the state of training
+
+[2020-02-13 16:24:17.061278]
+Saving the model
+
+[2020-02-13 16:24:17.069494]
+Saving score history
+
+[2020-02-13 16:24:17.071106]
+Saving the number of completed iterations
+
+[2020-02-13 16:24:17.071881]
+Saving the total training time
+
+[2020-02-13 16:25:06.138278]
+Completed 85000 iterations
+
+[2020-02-13 16:25:06.138551]
+Evaluating on validation set
+
+[2020-02-13 16:25:56.852125]
+Saving the calculated metrics
+
+[2020-02-13 16:25:57.285484]
+Saving the state of training
+
+[2020-02-13 16:25:57.285635]
+Saving the model
+
+[2020-02-13 16:25:57.293598]
+Saving score history
+
+[2020-02-13 16:25:57.295527]
+Saving the number of completed iterations
+
+[2020-02-13 16:25:57.296147]
+Saving the total training time
+
+[2020-02-13 16:26:45.508307]
+Completed 86000 iterations
+
+[2020-02-13 16:26:45.508581]
+Evaluating on validation set
+
+[2020-02-13 16:27:33.950594]
+Saving the calculated metrics
+
+[2020-02-13 16:27:34.390028]
+Saving the state of training
+
+[2020-02-13 16:27:34.390365]
+Saving the model
+
+[2020-02-13 16:27:34.398473]
+Saving score history
+
+[2020-02-13 16:27:34.400232]
+Saving the number of completed iterations
+
+[2020-02-13 16:27:34.400948]
+Saving the total training time
+
+[2020-02-13 16:28:22.918750]
+Completed 87000 iterations
+
+[2020-02-13 16:28:22.919027]
+Evaluating on validation set
+
+[2020-02-13 16:29:12.252293]
+Saving the calculated metrics
+
+[2020-02-13 16:29:12.684471]
+Saving the state of training
+
+[2020-02-13 16:29:12.684608]
+Saving the model
+
+[2020-02-13 16:29:12.692244]
+Saving score history
+
+[2020-02-13 16:29:12.694083]
+Saving the number of completed iterations
+
+[2020-02-13 16:29:12.694673]
+Saving the total training time
+
+[2020-02-13 16:30:02.064646]
+Completed 88000 iterations
+
+[2020-02-13 16:30:02.064927]
+Evaluating on validation set
+
+[2020-02-13 16:30:52.163590]
+Saving the calculated metrics
+
+[2020-02-13 16:30:52.623415]
+Saving the state of training
+
+[2020-02-13 16:30:52.623593]
+Saving the model
+
+[2020-02-13 16:30:52.631565]
+Saving score history
+
+[2020-02-13 16:30:52.633304]
+Saving the number of completed iterations
+
+[2020-02-13 16:30:52.634033]
+Saving the total training time
+
+[2020-02-13 16:31:40.257647]
+Completed 89000 iterations
+
+[2020-02-13 16:31:40.257922]
+Evaluating on validation set
+
+[2020-02-13 16:32:30.670432]
+Saving the calculated metrics
+
+[2020-02-13 16:32:31.114682]
+Saving the state of training
+
+[2020-02-13 16:32:31.114832]
+Saving the model
+
+[2020-02-13 16:32:31.122213]
+Saving score history
+
+[2020-02-13 16:32:31.123958]
+Saving the number of completed iterations
+
+[2020-02-13 16:32:31.124845]
+Saving the total training time
+
+[2020-02-13 16:33:20.529655]
+Completed 90000 iterations
+
+[2020-02-13 16:33:20.529919]
+Evaluating on validation set
+
+[2020-02-13 16:34:11.244108]
+Saving the calculated metrics
+
+[2020-02-13 16:34:11.680097]
+Saving the state of training
+
+[2020-02-13 16:34:11.680289]
+Saving the model
+
+[2020-02-13 16:34:11.687485]
+Saving score history
+
+[2020-02-13 16:34:11.689125]
+Saving the number of completed iterations
+
+[2020-02-13 16:34:11.690088]
+Saving the total training time
+
+[2020-02-13 16:35:00.234145]
+Completed 91000 iterations
+
+[2020-02-13 16:35:00.234388]
+Evaluating on validation set
+
+[2020-02-13 16:35:50.075476]
+Saving the calculated metrics
+
+[2020-02-13 16:35:50.511985]
+Saving the state of training
+
+[2020-02-13 16:35:50.512153]
+Saving the model
+
+[2020-02-13 16:35:50.519418]
+Saving score history
+
+[2020-02-13 16:35:50.521295]
+Saving the number of completed iterations
+
+[2020-02-13 16:35:50.522171]
+Saving the total training time
+
+[2020-02-13 16:36:38.068709]
+Completed 92000 iterations
+
+[2020-02-13 16:36:38.068990]
+Evaluating on validation set
+
+[2020-02-13 16:37:27.037579]
+Saving the calculated metrics
+
+[2020-02-13 16:37:27.468788]
+Saving the state of training
+
+[2020-02-13 16:37:27.468935]
+Saving the model
+
+[2020-02-13 16:37:27.476241]
+Saving score history
+
+[2020-02-13 16:37:27.477945]
+Saving the number of completed iterations
+
+[2020-02-13 16:37:27.478821]
+Saving the total training time
+
+[2020-02-13 16:38:16.305522]
+Completed 93000 iterations
+
+[2020-02-13 16:38:16.305793]
+Evaluating on validation set
+
+[2020-02-13 16:39:05.825099]
+Saving the calculated metrics
+
+[2020-02-13 16:39:06.251653]
+Saving the state of training
+
+[2020-02-13 16:39:06.251831]
+Saving the model
+
+[2020-02-13 16:39:06.259887]
+Saving score history
+
+[2020-02-13 16:39:06.261803]
+Saving the number of completed iterations
+
+[2020-02-13 16:39:06.262316]
+Saving the total training time
+
+[2020-02-13 16:39:54.875091]
+Completed 94000 iterations
+
+[2020-02-13 16:39:54.875355]
+Evaluating on validation set
+
+[2020-02-13 16:40:45.215214]
+Saving the calculated metrics
+
+[2020-02-13 16:40:45.645096]
+Saving the state of training
+
+[2020-02-13 16:40:45.645279]
+Saving the model
+
+[2020-02-13 16:40:45.653072]
+Saving score history
+
+[2020-02-13 16:40:45.655082]
+Saving the number of completed iterations
+
+[2020-02-13 16:40:45.655649]
+Saving the total training time
+
+[2020-02-13 16:41:33.983544]
+Completed 95000 iterations
+
+[2020-02-13 16:41:33.983820]
+Evaluating on validation set
+
+[2020-02-13 16:42:24.481064]
+Saving the calculated metrics
+
+[2020-02-13 16:42:24.909919]
+Saving the state of training
+
+[2020-02-13 16:42:24.910066]
+Saving the model
+
+[2020-02-13 16:42:24.917569]
+Saving score history
+
+[2020-02-13 16:42:24.920330]
+Saving the number of completed iterations
+
+[2020-02-13 16:42:24.920600]
+Saving the total training time
+
+[2020-02-13 16:43:13.308568]
+Completed 96000 iterations
+
+[2020-02-13 16:43:13.308846]
+Evaluating on validation set
+
+[2020-02-13 16:44:03.879548]
+Saving the calculated metrics
+
+[2020-02-13 16:44:04.306157]
+Saving the state of training
+
+[2020-02-13 16:44:04.306317]
+Saving the model
+
+[2020-02-13 16:44:04.313456]
+Saving score history
+
+[2020-02-13 16:44:04.315200]
+Saving the number of completed iterations
+
+[2020-02-13 16:44:04.316005]
+Saving the total training time
+
+[2020-02-13 16:44:52.668143]
+Completed 97000 iterations
+
+[2020-02-13 16:44:52.668414]
+Evaluating on validation set
+
+[2020-02-13 16:45:42.894901]
+Saving the calculated metrics
+
+[2020-02-13 16:45:43.493293]
+Saving the state of training
+
+[2020-02-13 16:45:43.493444]
+Saving the model
+
+[2020-02-13 16:45:43.500780]
+Saving score history
+
+[2020-02-13 16:45:43.502717]
+Saving the number of completed iterations
+
+[2020-02-13 16:45:43.503221]
+Saving the total training time
+
+[2020-02-13 16:46:32.855998]
+Completed 98000 iterations
+
+[2020-02-13 16:46:32.856257]
+Evaluating on validation set
+
+[2020-02-13 16:47:23.533549]
+Saving the calculated metrics
+
+[2020-02-13 16:47:23.970167]
+Saving the state of training
+
+[2020-02-13 16:47:23.970317]
+Saving the model
+
+[2020-02-13 16:47:23.978312]
+Saving score history
+
+[2020-02-13 16:47:23.980173]
+Saving the number of completed iterations
+
+[2020-02-13 16:47:23.980917]
+Saving the total training time
+
+[2020-02-13 16:48:13.777114]
+Completed 99000 iterations
+
+[2020-02-13 16:48:13.777389]
+Evaluating on validation set
+
+[2020-02-13 16:49:04.213082]
+Saving the calculated metrics
+
+[2020-02-13 16:49:04.811606]
+Saving the state of training
+
+[2020-02-13 16:49:04.811772]
+Saving the model
+
+[2020-02-13 16:49:04.819080]
+Saving score history
+
+[2020-02-13 16:49:04.820848]
+Saving the number of completed iterations
+
+[2020-02-13 16:49:04.821534]
+Saving the total training time
+
+[2020-02-13 16:49:54.752610]
+Completed 100000 iterations
+
+[2020-02-13 16:49:54.752857]
+Evaluating on validation set
+
+[2020-02-13 16:50:45.491438]
+Saving the calculated metrics
+
+[2020-02-13 16:50:45.929384]
+Saving the state of training
+
+[2020-02-13 16:50:45.929538]
+Saving the model
+
+[2020-02-13 16:50:45.937121]
+Saving score history
+
+[2020-02-13 16:50:45.938980]
+Saving the number of completed iterations
+
+[2020-02-13 16:50:45.939513]
+Saving the total training time
+
+[2020-02-13 16:50:45.940413]
+Saving the environment
+
+[2020-02-13 16:50:45.940507]
+Saving the state of training
+
+[2020-02-13 16:50:45.940599]
+Saving the model
+
+[2020-02-13 16:50:45.947516]
+Saving score history
+
+[2020-02-13 16:50:45.949221]
+Saving the number of completed iterations
+
+[2020-02-13 16:50:45.950326]
+Saving the total training time
+
+[2020-02-13 16:50:45.950580]
+Evaluating on test set
+
+[2020-02-13 16:52:26.128314]
+Done
+

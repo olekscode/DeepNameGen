@@ -1,0 +1,1300 @@
+[2020-02-12 17:36:57.455835]
+Iteration: 1000/100000 (1.0%)
+Average loss: 4.829063090936991
+Average precision: 0.09175607001693958
+Average recall: 0.026366024756764396
+Average F1: 0.039743637795585714
+Exact match: 0.0
+Unique names: 3
+Epoch time: 00:01:48.56
+Training time: 00:00:52.91
+Evaluation time: 00:00:55.65
+Total training time: 00:01:48.56
+
+[2020-02-12 17:38:46.173400]
+Iteration: 2000/100000 (2.0%)
+Average loss: 4.6003383485566935
+Average precision: 0.10747223790702051
+Average recall: 0.0306119743443288
+Average F1: 0.04619519594110202
+Exact match: 9.410878976096367e-05
+Unique names: 3
+Epoch time: 00:01:48.19
+Training time: 00:00:52.67
+Evaluation time: 00:00:55.52
+Total training time: 00:03:37.28
+
+[2020-02-12 17:40:31.353385]
+Iteration: 3000/100000 (3.0%)
+Average loss: 4.6200853906989625
+Average precision: 0.12958780350084698
+Average recall: 0.04360178818817978
+Average F1: 0.061962906386960274
+Exact match: 0.005740636175418784
+Unique names: 9
+Epoch time: 00:01:44.79
+Training time: 00:00:51.66
+Evaluation time: 00:00:53.13
+Total training time: 00:05:22.46
+
+[2020-02-12 17:42:18.450030]
+Iteration: 4000/100000 (4.0%)
+Average loss: 4.454063630514504
+Average precision: 0.1422924901185771
+Average recall: 0.047441187856207344
+Average F1: 0.0677846955938426
+Exact match: 0.005270092226613966
+Unique names: 12
+Epoch time: 00:01:46.54
+Training time: 00:00:52.54
+Evaluation time: 00:00:54.00
+Total training time: 00:07:09.55
+
+[2020-02-12 17:44:05.876485]
+Iteration: 5000/100000 (5.0%)
+Average loss: 4.4218287956816775
+Average precision: 0.15575004705439488
+Average recall: 0.059936904699750715
+Average F1: 0.08102490865054335
+Exact match: 0.01458686241294937
+Unique names: 17
+Epoch time: 00:01:47.01
+Training time: 00:00:53.79
+Evaluation time: 00:00:53.23
+Total training time: 00:08:56.98
+
+[2020-02-12 17:45:48.864636]
+Iteration: 6000/100000 (6.0%)
+Average loss: 4.34304105120785
+Average precision: 0.13753999623564842
+Average recall: 0.05777185254881481
+Average F1: 0.07715373172741846
+Exact match: 0.00894033502729155
+Unique names: 21
+Epoch time: 00:01:42.55
+Training time: 00:00:48.96
+Evaluation time: 00:00:53.60
+Total training time: 00:10:39.97
+
+[2020-02-12 17:47:37.249926]
+Iteration: 7000/100000 (7.0%)
+Average loss: 4.36245472157504
+Average precision: 0.1445824706694272
+Average recall: 0.0741176123163705
+Average F1: 0.09233771383686641
+Exact match: 0.015245623941276116
+Unique names: 57
+Epoch time: 00:01:47.98
+Training time: 00:00:52.94
+Evaluation time: 00:00:55.04
+Total training time: 00:12:28.35
+
+[2020-02-12 17:49:23.676641]
+Iteration: 8000/100000 (8.0%)
+Average loss: 4.310080216254369
+Average precision: 0.1578204404291361
+Average recall: 0.07360717163088752
+Average F1: 0.09368991633249056
+Exact match: 0.02249200075287032
+Unique names: 30
+Epoch time: 00:01:45.88
+Training time: 00:00:52.01
+Evaluation time: 00:00:53.87
+Total training time: 00:14:14.78
+
+[2020-02-12 17:51:09.794404]
+Iteration: 9000/100000 (9.0%)
+Average loss: 4.317332725863855
+Average precision: 0.20148691887822323
+Average recall: 0.0907926632729012
+Average F1: 0.11661659439750917
+Exact match: 0.028232636928289104
+Unique names: 52
+Epoch time: 00:01:45.70
+Training time: 00:00:51.65
+Evaluation time: 00:00:54.05
+Total training time: 00:16:00.90
+
+[2020-02-12 17:52:57.232827]
+Iteration: 10000/100000 (10.0%)
+Average loss: 4.2826914573900705
+Average precision: 0.17272099880795536
+Average recall: 0.08842694859775685
+Average F1: 0.1098568213475044
+Exact match: 0.0230566534914361
+Unique names: 85
+Epoch time: 00:01:46.99
+Training time: 00:00:50.89
+Evaluation time: 00:00:56.10
+Total training time: 00:17:48.33
+
+[2020-02-12 17:54:43.921579]
+Iteration: 11000/100000 (11.0%)
+Average loss: 4.2829932952098435
+Average precision: 0.168360624882364
+Average recall: 0.0940118934331252
+Average F1: 0.11408093443666566
+Exact match: 0.026350461133069828
+Unique names: 109
+Epoch time: 00:01:46.29
+Training time: 00:00:50.39
+Evaluation time: 00:00:55.89
+Total training time: 00:19:35.02
+
+[2020-02-12 17:56:31.807325]
+Iteration: 12000/100000 (12.0%)
+Average loss: 4.1967613793527505
+Average precision: 0.1699604743083003
+Average recall: 0.09593033098820868
+Average F1: 0.11539204437990423
+Exact match: 0.03162055335968379
+Unique names: 116
+Epoch time: 00:01:47.36
+Training time: 00:00:52.41
+Evaluation time: 00:00:54.95
+Total training time: 00:21:22.91
+
+[2020-02-12 17:58:26.490501]
+Iteration: 13000/100000 (13.0%)
+Average loss: 4.214249275735315
+Average precision: 0.18822542192107397
+Average recall: 0.1084607387614167
+Average F1: 0.13026927795420212
+Exact match: 0.027950310559006212
+Unique names: 206
+Epoch time: 00:01:54.27
+Training time: 00:00:51.29
+Evaluation time: 00:01:02.97
+Total training time: 00:23:17.59
+
+[2020-02-12 18:00:18.707352]
+Iteration: 14000/100000 (14.0%)
+Average loss: 4.16973698920065
+Average precision: 0.18724512202773072
+Average recall: 0.10297389181494267
+Average F1: 0.12516407301839305
+Exact match: 0.035196687370600416
+Unique names: 141
+Epoch time: 00:01:51.75
+Training time: 00:00:56.57
+Evaluation time: 00:00:55.18
+Total training time: 00:25:09.81
+
+[2020-02-12 18:02:05.424702]
+Iteration: 15000/100000 (15.0%)
+Average loss: 4.0244880397899765
+Average precision: 0.22894315829098438
+Average recall: 0.11994148018992752
+Average F1: 0.1475399587342002
+Exact match: 0.03406738189346885
+Unique names: 253
+Epoch time: 00:01:46.30
+Training time: 00:00:51.54
+Evaluation time: 00:00:54.76
+Total training time: 00:26:56.53
+
+[2020-02-12 18:03:53.801132]
+Iteration: 16000/100000 (16.0%)
+Average loss: 4.109245594046986
+Average precision: 0.21152518978605933
+Average recall: 0.12340051357555586
+Average F1: 0.1476609280674789
+Exact match: 0.034255599472990776
+Unique names: 327
+Epoch time: 00:01:47.83
+Training time: 00:00:51.97
+Evaluation time: 00:00:55.86
+Total training time: 00:28:44.90
+
+[2020-02-12 18:05:41.168559]
+Iteration: 17000/100000 (17.0%)
+Average loss: 4.035549566593222
+Average precision: 0.2456396260744087
+Average recall: 0.12666594259620775
+Average F1: 0.15741453477196118
+Exact match: 0.03801995106342933
+Unique names: 199
+Epoch time: 00:01:46.94
+Training time: 00:00:51.54
+Evaluation time: 00:00:55.40
+Total training time: 00:30:32.27
+
+[2020-02-12 18:07:32.671825]
+Iteration: 18000/100000 (18.0%)
+Average loss: 4.021310874263484
+Average precision: 0.2422203400464271
+Average recall: 0.13409731280284606
+Average F1: 0.163286460752583
+Exact match: 0.03557312252964427
+Unique names: 374
+Epoch time: 00:01:51.06
+Training time: 00:00:52.60
+Evaluation time: 00:00:58.46
+Total training time: 00:32:23.77
+
+[2020-02-12 18:09:39.412329]
+Iteration: 19000/100000 (19.0%)
+Average loss: 4.070362071688954
+Average precision: 0.24149099692577994
+Average recall: 0.1585079127639817
+Average F1: 0.18152736591471927
+Exact match: 0.02973837756446452
+Unique names: 1185
+Epoch time: 00:02:06.26
+Training time: 00:00:55.84
+Evaluation time: 00:01:10.42
+Total training time: 00:34:30.51
+
+[2020-02-12 18:11:28.383111]
+Iteration: 20000/100000 (20.0%)
+Average loss: 4.0100968597658175
+Average precision: 0.2681786812221596
+Average recall: 0.14611174921028053
+Average F1: 0.17879831051062206
+Exact match: 0.041407867494824016
+Unique names: 451
+Epoch time: 00:01:48.43
+Training time: 00:00:51.99
+Evaluation time: 00:00:56.44
+Total training time: 00:36:19.48
+
+[2020-02-12 18:13:19.799489]
+Iteration: 21000/100000 (21.0%)
+Average loss: 3.9264598741747827
+Average precision: 0.2713611267959096
+Average recall: 0.1616669611940636
+Average F1: 0.19131679143429128
+Exact match: 0.04319593450028233
+Unique names: 932
+Epoch time: 00:01:51.00
+Training time: 00:00:52.93
+Evaluation time: 00:00:58.07
+Total training time: 00:38:10.90
+
+[2020-02-12 18:15:08.068900]
+Iteration: 22000/100000 (22.0%)
+Average loss: 3.83842715090449
+Average precision: 0.2894096241922328
+Average recall: 0.16141175390892942
+Average F1: 0.1956856987983498
+Exact match: 0.04423113118765293
+Unique names: 634
+Epoch time: 00:01:47.84
+Training time: 00:00:51.04
+Evaluation time: 00:00:56.79
+Total training time: 00:39:59.17
+
+[2020-02-12 18:16:57.992447]
+Iteration: 23000/100000 (23.0%)
+Average loss: 3.9512137684824395
+Average precision: 0.28734550473680925
+Average recall: 0.16068019621802693
+Average F1: 0.19384536453989032
+Exact match: 0.04601919819311124
+Unique names: 597
+Epoch time: 00:01:49.53
+Training time: 00:00:52.26
+Evaluation time: 00:00:57.27
+Total training time: 00:41:49.09
+
+[2020-02-12 18:18:48.491856]
+Iteration: 24000/100000 (24.0%)
+Average loss: 3.8357731184689827
+Average precision: 0.3102060982495771
+Average recall: 0.1775313256185633
+Average F1: 0.2128634297818404
+Exact match: 0.045736871823828344
+Unique names: 798
+Epoch time: 00:01:49.99
+Training time: 00:00:52.17
+Evaluation time: 00:00:57.82
+Total training time: 00:43:39.59
+
+[2020-02-12 18:20:39.198566]
+Iteration: 25000/100000 (25.0%)
+Average loss: 3.8355247580136385
+Average precision: 0.31698506807202476
+Average recall: 0.17813312046089996
+Average F1: 0.21540614085080748
+Exact match: 0.05100696405044231
+Unique names: 849
+Epoch time: 00:01:50.30
+Training time: 00:00:52.51
+Evaluation time: 00:00:57.80
+Total training time: 00:45:30.30
+
+[2020-02-12 18:22:28.429168]
+Iteration: 26000/100000 (26.0%)
+Average loss: 3.7624429444379754
+Average precision: 0.3299297321036454
+Average recall: 0.17916765173258553
+Average F1: 0.2191132408382577
+Exact match: 0.050724637681159424
+Unique names: 734
+Epoch time: 00:01:48.82
+Training time: 00:00:51.91
+Evaluation time: 00:00:56.91
+Total training time: 00:47:19.53
+
+[2020-02-12 18:24:18.793523]
+Iteration: 27000/100000 (27.0%)
+Average loss: 3.79325796698216
+Average precision: 0.33352155091285557
+Average recall: 0.1982003318324596
+Average F1: 0.23477396586515972
+Exact match: 0.04808959156785244
+Unique names: 1113
+Epoch time: 00:01:49.96
+Training time: 00:00:50.80
+Evaluation time: 00:00:59.16
+Total training time: 00:49:09.90
+
+[2020-02-12 18:26:15.617043]
+Iteration: 28000/100000 (28.0%)
+Average loss: 3.7602125743139823
+Average precision: 0.3389563335215508
+Average recall: 0.18561137426891117
+Average F1: 0.22634003567798258
+Exact match: 0.05251270468661773
+Unique names: 773
+Epoch time: 00:01:56.30
+Training time: 00:00:58.81
+Evaluation time: 00:00:57.48
+Total training time: 00:51:06.72
+
+[2020-02-12 18:28:06.763458]
+Iteration: 29000/100000 (29.0%)
+Average loss: 3.7777500118587497
+Average precision: 0.3560809962983877
+Average recall: 0.19469685583462992
+Average F1: 0.2364398191473305
+Exact match: 0.055712403538490496
+Unique names: 983
+Epoch time: 00:01:50.74
+Training time: 00:00:53.80
+Evaluation time: 00:00:56.94
+Total training time: 00:52:57.87
+
+[2020-02-12 18:29:58.113985]
+Iteration: 30000/100000 (30.0%)
+Average loss: 3.716089583464426
+Average precision: 0.349068322981367
+Average recall: 0.20356924037754004
+Average F1: 0.24294173429466034
+Exact match: 0.05514775079992471
+Unique names: 1292
+Epoch time: 00:01:50.94
+Training time: 00:00:52.67
+Evaluation time: 00:00:58.27
+Total training time: 00:54:49.22
+
+[2020-02-12 18:31:51.089122]
+Iteration: 31000/100000 (31.0%)
+Average loss: 3.7791130935577906
+Average precision: 0.35534537925842313
+Average recall: 0.20793046644260638
+Average F1: 0.24648357372807023
+Exact match: 0.048560135516657256
+Unique names: 1588
+Epoch time: 00:01:52.52
+Training time: 00:00:52.64
+Evaluation time: 00:00:59.88
+Total training time: 00:56:42.19
+
+[2020-02-12 18:33:39.368604]
+Iteration: 32000/100000 (32.0%)
+Average loss: 3.6460529612721135
+Average precision: 0.372435535479014
+Average recall: 0.20202073215907104
+Average F1: 0.24668420386941134
+Exact match: 0.06126482213438735
+Unique names: 903
+Epoch time: 00:01:47.86
+Training time: 00:00:51.51
+Evaluation time: 00:00:56.35
+Total training time: 00:58:30.47
+
+[2020-02-12 18:35:32.846564]
+Iteration: 33000/100000 (33.0%)
+Average loss: 3.493420438565385
+Average precision: 0.3550552104899936
+Average recall: 0.21444499463979969
+Average F1: 0.2522852591810823
+Exact match: 0.05354790137398833
+Unique names: 1582
+Epoch time: 00:01:53.06
+Training time: 00:00:53.66
+Evaluation time: 00:00:59.40
+Total training time: 01:00:23.95
+
+[2020-02-12 18:37:24.302657]
+Iteration: 34000/100000 (34.0%)
+Average loss: 3.6210374074192195
+Average precision: 0.36662902315076273
+Average recall: 0.2090491310141223
+Average F1: 0.25114516942580356
+Exact match: 0.06164125729343121
+Unique names: 1208
+Epoch time: 00:01:51.03
+Training time: 00:00:53.85
+Evaluation time: 00:00:57.18
+Total training time: 01:02:15.40
+
+[2020-02-12 18:39:18.720908]
+Iteration: 35000/100000 (35.0%)
+Average loss: 3.5693097939258522
+Average precision: 0.3658275299579658
+Average recall: 0.22736757433962426
+Average F1: 0.26475366676026135
+Exact match: 0.05354790137398833
+Unique names: 2227
+Epoch time: 00:01:53.88
+Training time: 00:00:53.29
+Evaluation time: 00:01:00.58
+Total training time: 01:04:09.82
+
+[2020-02-12 18:41:10.004895]
+Iteration: 36000/100000 (36.0%)
+Average loss: 3.554699443342608
+Average precision: 0.3851512014555495
+Average recall: 0.22553159427100736
+Average F1: 0.26868357895320194
+Exact match: 0.06738189346884998
+Unique names: 1440
+Epoch time: 00:01:50.86
+Training time: 00:00:53.18
+Evaluation time: 00:00:57.68
+Total training time: 01:06:01.11
+
+[2020-02-12 18:43:07.780479]
+Iteration: 37000/100000 (37.0%)
+Average loss: 3.541522233723178
+Average precision: 0.3549454169019397
+Average recall: 0.24378589053208
+Average F1: 0.2730925665824538
+Exact match: 0.049595332204027856
+Unique names: 3105
+Epoch time: 00:01:57.35
+Training time: 00:00:53.69
+Evaluation time: 00:01:03.66
+Total training time: 01:07:58.88
+
+[2020-02-12 18:45:00.796532]
+Iteration: 38000/100000 (38.0%)
+Average loss: 3.5028455683674142
+Average precision: 0.3798199385155911
+Average recall: 0.23466605648988545
+Average F1: 0.27440908580095635
+Exact match: 0.06277056277056277
+Unique names: 1816
+Epoch time: 00:01:52.59
+Training time: 00:00:53.74
+Evaluation time: 00:00:58.85
+Total training time: 01:09:51.90
+
+[2020-02-12 18:46:53.831640]
+Iteration: 39000/100000 (39.0%)
+Average loss: 3.527603819493754
+Average precision: 0.3811343246125863
+Average recall: 0.23977797068565102
+Average F1: 0.2788438193456139
+Exact match: 0.06549971767363072
+Unique names: 2081
+Epoch time: 00:01:52.50
+Training time: 00:00:52.43
+Evaluation time: 00:01:00.07
+Total training time: 01:11:44.93
+
+[2020-02-12 18:48:44.809510]
+Iteration: 40000/100000 (40.0%)
+Average loss: 3.579170609650736
+Average precision: 0.4001223414266895
+Average recall: 0.2295887298075333
+Average F1: 0.2756750924170464
+Exact match: 0.06869941652550349
+Unique names: 1357
+Epoch time: 00:01:50.55
+Training time: 00:00:53.15
+Evaluation time: 00:00:57.40
+Total training time: 01:13:35.91
+
+[2020-02-12 18:50:37.523515]
+Iteration: 41000/100000 (41.0%)
+Average loss: 3.444038709680685
+Average precision: 0.3932131877784048
+Average recall: 0.23798583545195748
+Average F1: 0.279980743475945
+Exact match: 0.0660643704121965
+Unique names: 1835
+Epoch time: 00:01:52.28
+Training time: 00:00:53.28
+Evaluation time: 00:00:59.00
+Total training time: 01:15:28.63
+
+[2020-02-12 18:52:36.233045]
+Iteration: 42000/100000 (42.0%)
+Average loss: 3.509071675821346
+Average precision: 0.3890020435051497
+Average recall: 0.2514200675832539
+Average F1: 0.28816744840136443
+Exact match: 0.06286467156032373
+Unique names: 2700
+Epoch time: 00:01:58.27
+Training time: 00:00:53.11
+Evaluation time: 00:01:05.16
+Total training time: 01:17:27.33
+
+[2020-02-12 18:54:31.347944]
+Iteration: 43000/100000 (43.0%)
+Average loss: 3.4668362594888884
+Average precision: 0.39355153128445086
+Average recall: 0.25202848158805397
+Average F1: 0.2903115878412323
+Exact match: 0.06230001882175795
+Unique names: 2815
+Epoch time: 00:01:54.60
+Training time: 00:00:51.68
+Evaluation time: 00:01:02.92
+Total training time: 01:19:22.45
+
+[2020-02-12 18:56:25.153493]
+Iteration: 44000/100000 (44.0%)
+Average loss: 3.499763135750141
+Average precision: 0.40127360562143155
+Average recall: 0.2481861256776576
+Average F1: 0.2900416685188509
+Exact match: 0.06427630340673819
+Unique names: 2222
+Epoch time: 00:01:53.40
+Training time: 00:00:53.61
+Evaluation time: 00:00:59.78
+Total training time: 01:21:16.26
+
+[2020-02-12 18:58:17.595959]
+Iteration: 45000/100000 (45.0%)
+Average loss: 3.4638800475326157
+Average precision: 0.4016641570989399
+Average recall: 0.23692133801535362
+Average F1: 0.2816521726177296
+Exact match: 0.07302842085450781
+Unique names: 1594
+Epoch time: 00:01:52.04
+Training time: 00:00:53.90
+Evaluation time: 00:00:58.14
+Total training time: 01:23:08.70
+
+[2020-02-12 19:00:12.023584]
+Iteration: 46000/100000 (46.0%)
+Average loss: 3.4724058788927215
+Average precision: 0.3978135391178876
+Average recall: 0.2560871892605391
+Average F1: 0.29485650375269207
+Exact match: 0.06973461321287408
+Unique names: 2424
+Epoch time: 00:01:54.02
+Training time: 00:00:53.55
+Evaluation time: 00:01:00.47
+Total training time: 01:25:03.13
+
+[2020-02-12 19:02:12.516166]
+Iteration: 47000/100000 (47.0%)
+Average loss: 3.422265118137408
+Average precision: 0.4094039328511379
+Average recall: 0.24901708336208742
+Average F1: 0.29266776184478105
+Exact match: 0.07378129117259552
+Unique names: 1971
+Epoch time: 00:01:59.98
+Training time: 00:01:00.56
+Evaluation time: 00:00:59.42
+Total training time: 01:27:03.62
+
+[2020-02-12 19:04:05.473583]
+Iteration: 48000/100000 (48.0%)
+Average loss: 3.428132954848626
+Average precision: 0.41655687307861217
+Average recall: 0.2555105363194026
+Average F1: 0.2992982374193558
+Exact match: 0.07547524938829286
+Unique names: 2157
+Epoch time: 00:01:52.55
+Training time: 00:00:53.39
+Evaluation time: 00:00:59.15
+Total training time: 01:28:56.58
+
+[2020-02-12 19:06:00.612331]
+Iteration: 49000/100000 (49.0%)
+Average loss: 3.4147331465536594
+Average precision: 0.40830196373674627
+Average recall: 0.26132500778181345
+Average F1: 0.30175028149959265
+Exact match: 0.06992283079239602
+Unique names: 2526
+Epoch time: 00:01:54.73
+Training time: 00:00:54.45
+Evaluation time: 00:01:00.28
+Total training time: 01:30:51.71
+
+[2020-02-12 19:07:53.714207]
+Iteration: 50000/100000 (50.0%)
+Average loss: 3.3694440599604696
+Average precision: 0.4245405474442741
+Average recall: 0.2623220880067312
+Average F1: 0.3067990503030528
+Exact match: 0.07462827028044419
+Unique names: 2212
+Epoch time: 00:01:52.69
+Training time: 00:00:52.95
+Evaluation time: 00:00:59.73
+Total training time: 01:32:44.82
+
+[2020-02-12 19:09:47.440440]
+Iteration: 51000/100000 (51.0%)
+Average loss: 3.43412580686545
+Average precision: 0.4057908275299578
+Average recall: 0.2650554751415864
+Average F1: 0.3035065258555655
+Exact match: 0.07284020327498589
+Unique names: 2778
+Epoch time: 00:01:53.32
+Training time: 00:00:52.89
+Evaluation time: 00:01:00.42
+Total training time: 01:34:38.54
+
+[2020-02-12 19:11:38.448496]
+Iteration: 52000/100000 (52.0%)
+Average loss: 3.313975789559072
+Average precision: 0.4139014367275237
+Average recall: 0.2458196228453159
+Average F1: 0.2913584773550903
+Exact match: 0.07726331639375118
+Unique names: 1628
+Epoch time: 00:01:50.60
+Training time: 00:00:52.48
+Evaluation time: 00:00:58.12
+Total training time: 01:36:29.55
+
+[2020-02-12 19:13:31.700873]
+Iteration: 53000/100000 (53.0%)
+Average loss: 3.296957737436067
+Average precision: 0.4139014367275235
+Average recall: 0.2632256271866673
+Average F1: 0.30428844703099917
+Exact match: 0.07208733295689818
+Unique names: 2592
+Epoch time: 00:01:52.85
+Training time: 00:00:52.98
+Evaluation time: 00:00:59.87
+Total training time: 01:38:22.80
+
+[2020-02-12 19:15:30.116850]
+Iteration: 54000/100000 (54.0%)
+Average loss: 3.244455698505141
+Average precision: 0.41919819311123674
+Average recall: 0.2542076863576031
+Average F1: 0.29953688661339684
+Exact match: 0.08036890645586298
+Unique names: 1893
+Epoch time: 00:01:57.89
+Training time: 00:00:58.92
+Evaluation time: 00:00:58.96
+Total training time: 01:40:21.22
+
+[2020-02-12 19:17:21.374372]
+Iteration: 55000/100000 (55.0%)
+Average loss: 3.2489825462752555
+Average precision: 0.4229885366531326
+Average recall: 0.2632525120173357
+Average F1: 0.307739059672995
+Exact match: 0.07848673066064371
+Unique names: 2347
+Epoch time: 00:01:50.84
+Training time: 00:00:51.21
+Evaluation time: 00:00:59.63
+Total training time: 01:42:12.48
+
+[2020-02-12 19:19:14.235642]
+Iteration: 56000/100000 (56.0%)
+Average loss: 3.283670746277163
+Average precision: 0.4081262939958593
+Average recall: 0.2675225252088619
+Average F1: 0.3065137233262589
+Exact match: 0.07321663843402974
+Unique names: 2677
+Epoch time: 00:01:52.44
+Training time: 00:00:51.98
+Evaluation time: 00:01:00.46
+Total training time: 01:44:05.34
+
+[2020-02-12 19:21:11.243156]
+Iteration: 57000/100000 (57.0%)
+Average loss: 3.2586624197907725
+Average precision: 0.41001250302492626
+Average recall: 0.2790430126892596
+Average F1: 0.314554895499941
+Exact match: 0.06681724073028421
+Unique names: 3367
+Epoch time: 00:01:56.60
+Training time: 00:00:53.52
+Evaluation time: 00:01:03.08
+Total training time: 01:46:02.35
+
+[2020-02-12 19:23:04.076485]
+Iteration: 58000/100000 (58.0%)
+Average loss: 3.267208445122512
+Average precision: 0.4266108287847416
+Average recall: 0.26496836679643165
+Average F1: 0.3093161126052155
+Exact match: 0.07792207792207792
+Unique names: 2386
+Epoch time: 00:01:52.42
+Training time: 00:00:53.51
+Evaluation time: 00:00:58.91
+Total training time: 01:47:55.18
+
+[2020-02-12 19:25:01.307242]
+Iteration: 59000/100000 (59.0%)
+Average loss: 3.2449735685818224
+Average precision: 0.4131596578025157
+Average recall: 0.279026861734373
+Average F1: 0.3153317929682241
+Exact match: 0.07001693958215698
+Unique names: 3335
+Epoch time: 00:01:56.82
+Training time: 00:00:54.50
+Evaluation time: 00:01:02.32
+Total training time: 01:49:52.41
+
+[2020-02-12 19:26:54.586150]
+Iteration: 60000/100000 (60.0%)
+Average loss: 3.269809158545514
+Average precision: 0.43210521362695276
+Average recall: 0.27128902921534326
+Average F1: 0.31582035226785604
+Exact match: 0.08036890645586298
+Unique names: 2519
+Epoch time: 00:01:52.84
+Training time: 00:00:53.18
+Evaluation time: 00:00:59.66
+Total training time: 01:51:45.69
+
+[2020-02-12 19:28:52.522374]
+Iteration: 61000/100000 (61.0%)
+Average loss: 3.2157438405328365
+Average precision: 0.41728251906823344
+Average recall: 0.28869430024145026
+Average F1: 0.3235124168582339
+Exact match: 0.07189911537737624
+Unique names: 3542
+Epoch time: 00:01:57.39
+Training time: 00:00:53.79
+Evaluation time: 00:01:03.60
+Total training time: 01:53:43.62
+
+[2020-02-12 19:30:49.597889]
+Iteration: 62000/100000 (62.0%)
+Average loss: 3.3575894313258194
+Average precision: 0.42943678130013535
+Average recall: 0.2714839281115415
+Average F1: 0.31483830236321314
+Exact match: 0.08046301524562394
+Unique names: 2682
+Epoch time: 00:01:56.64
+Training time: 00:00:53.75
+Evaluation time: 00:01:02.89
+Total training time: 01:55:40.70
+
+[2020-02-12 19:32:44.896387]
+Iteration: 63000/100000 (63.0%)
+Average loss: 3.2541264300480774
+Average precision: 0.42853378505552386
+Average recall: 0.2793430349895638
+Average F1: 0.32080041275411086
+Exact match: 0.08488612836438923
+Unique names: 2955
+Epoch time: 00:01:54.87
+Training time: 00:00:53.96
+Evaluation time: 00:01:00.91
+Total training time: 01:57:36.00
+
+[2020-02-12 19:34:46.013856]
+Iteration: 64000/100000 (64.0%)
+Average loss: 3.149235213834805
+Average precision: 0.4282087736280285
+Average recall: 0.2841428854204138
+Average F1: 0.3242278921697328
+Exact match: 0.08055712403538491
+Unique names: 3070
+Epoch time: 00:02:00.69
+Training time: 00:00:53.87
+Evaluation time: 00:01:06.82
+Total training time: 01:59:37.12
+
+[2020-02-12 19:37:08.264909]
+Iteration: 65000/100000 (65.0%)
+Average loss: 3.324943859523688
+Average precision: 0.4422772534573779
+Average recall: 0.2731525530015095
+Average F1: 0.31929531433716574
+Exact match: 0.08215697346132128
+Unique names: 2661
+Epoch time: 00:02:21.68
+Training time: 00:01:04.10
+Evaluation time: 00:01:17.57
+Total training time: 02:01:59.37
+
+[2020-02-12 19:39:05.687662]
+Iteration: 66000/100000 (66.0%)
+Average loss: 3.073348920286221
+Average precision: 0.4236401279879541
+Average recall: 0.28339959573020185
+Average F1: 0.321863614845315
+Exact match: 0.07716920760399021
+Unique names: 3118
+Epoch time: 00:01:56.95
+Training time: 00:00:56.14
+Evaluation time: 00:01:00.81
+Total training time: 02:03:56.79
+
+[2020-02-12 19:40:58.161121]
+Iteration: 67000/100000 (67.0%)
+Average loss: 3.2025074198103587
+Average precision: 0.4361785557437732
+Average recall: 0.2790322111750701
+Average F1: 0.3218046728351643
+Exact match: 0.0815923207227555
+Unique names: 2898
+Epoch time: 00:01:52.06
+Training time: 00:00:51.67
+Evaluation time: 00:01:00.38
+Total training time: 02:05:49.26
+
+[2020-02-12 19:42:55.351104]
+Iteration: 68000/100000 (68.0%)
+Average loss: 3.1423887627047042
+Average precision: 0.42658438869618986
+Average recall: 0.2893192198457606
+Average F1: 0.3258136950048303
+Exact match: 0.07905138339920949
+Unique names: 3477
+Epoch time: 00:01:56.77
+Training time: 00:00:51.71
+Evaluation time: 00:01:05.06
+Total training time: 02:07:46.45
+
+[2020-02-12 19:44:48.745496]
+Iteration: 69000/100000 (69.0%)
+Average loss: 3.0649014767637777
+Average precision: 0.42884680881575243
+Average recall: 0.2927053685382329
+Average F1: 0.33018606573801446
+Exact match: 0.0839450404667796
+Unique names: 3303
+Epoch time: 00:01:52.97
+Training time: 00:00:52.15
+Evaluation time: 00:01:00.81
+Total training time: 02:09:39.85
+
+[2020-02-12 19:46:41.729876]
+Iteration: 70000/100000 (70.0%)
+Average loss: 3.1906546920354257
+Average precision: 0.43719806763285
+Average recall: 0.2904873816293937
+Average F1: 0.33068154968668134
+Exact match: 0.08300395256916997
+Unique names: 3306
+Epoch time: 00:01:52.56
+Training time: 00:00:50.96
+Evaluation time: 00:01:01.60
+Total training time: 02:11:32.83
+
+[2020-02-12 19:48:35.442202]
+Iteration: 71000/100000 (71.0%)
+Average loss: 3.1262806908044816
+Average precision: 0.44285826319987825
+Average recall: 0.29377805596749956
+Average F1: 0.3347968182454349
+Exact match: 0.08347449651797478
+Unique names: 3364
+Epoch time: 00:01:53.28
+Training time: 00:00:52.64
+Evaluation time: 00:01:00.64
+Total training time: 02:13:26.54
+
+[2020-02-12 19:50:27.760595]
+Iteration: 72000/100000 (72.0%)
+Average loss: 2.9834663314813454
+Average precision: 0.4435911914172783
+Average recall: 0.2875855380372616
+Average F1: 0.3310739436233512
+Exact match: 0.08686241294936947
+Unique names: 3082
+Epoch time: 00:01:51.77
+Training time: 00:00:51.41
+Evaluation time: 00:01:00.36
+Total training time: 02:15:18.86
+
+[2020-02-12 19:52:22.391183]
+Iteration: 73000/100000 (73.0%)
+Average loss: 3.061677573588909
+Average precision: 0.44067826296087187
+Average recall: 0.29219584240758895
+Average F1: 0.3330297005123465
+Exact match: 0.08498023715415019
+Unique names: 3326
+Epoch time: 00:01:54.20
+Training time: 00:00:53.24
+Evaluation time: 00:01:00.96
+Total training time: 02:17:13.49
+
+[2020-02-12 19:54:15.169806]
+Iteration: 74000/100000 (74.0%)
+Average loss: 3.120186181003773
+Average precision: 0.44606782106782095
+Average recall: 0.28712109381928874
+Average F1: 0.331625186721178
+Exact match: 0.08620365142104272
+Unique names: 3003
+Epoch time: 00:01:52.34
+Training time: 00:00:52.45
+Evaluation time: 00:00:59.89
+Total training time: 02:19:06.27
+
+[2020-02-12 19:56:09.832391]
+Iteration: 75000/100000 (75.0%)
+Average loss: 3.0721583294717525
+Average precision: 0.4344500909718301
+Average recall: 0.284128060857311
+Average F1: 0.32572401524804656
+Exact match: 0.08761528326745718
+Unique names: 2930
+Epoch time: 00:01:54.24
+Training time: 00:00:54.36
+Evaluation time: 00:00:59.88
+Total training time: 02:21:00.93
+
+[2020-02-12 19:58:06.000816]
+Iteration: 76000/100000 (76.0%)
+Average loss: 3.0262492931485694
+Average precision: 0.4291082968101602
+Average recall: 0.28734097844769907
+Average F1: 0.3259076866601698
+Exact match: 0.0857331074722379
+Unique names: 3270
+Epoch time: 00:01:55.63
+Training time: 00:00:54.24
+Evaluation time: 00:01:01.39
+Total training time: 02:22:57.10
+
+[2020-02-12 20:00:01.637882]
+Iteration: 77000/100000 (77.0%)
+Average loss: 3.0920757890290127
+Average precision: 0.4385155906895032
+Average recall: 0.2969036241692948
+Average F1: 0.33516895464034047
+Exact match: 0.08545078110295501
+Unique names: 3524
+Epoch time: 00:01:55.21
+Training time: 00:00:53.75
+Evaluation time: 00:01:01.46
+Total training time: 02:24:52.74
+
+[2020-02-12 20:01:57.313931]
+Iteration: 78000/100000 (78.0%)
+Average loss: 3.027044607499471
+Average precision: 0.44820633128086584
+Average recall: 0.2960010058118488
+Average F1: 0.33808454104190955
+Exact match: 0.08686241294936947
+Unique names: 3337
+Epoch time: 00:01:55.23
+Training time: 00:00:54.47
+Evaluation time: 00:01:00.75
+Total training time: 02:26:48.42
+
+[2020-02-12 20:03:50.101710]
+Iteration: 79000/100000 (79.0%)
+Average loss: 3.0537993880945034
+Average precision: 0.4601509773870027
+Average recall: 0.28481875894354924
+Average F1: 0.3333997837597497
+Exact match: 0.09326181065311501
+Unique names: 2561
+Epoch time: 00:01:52.35
+Training time: 00:00:53.62
+Evaluation time: 00:00:58.73
+Total training time: 02:28:41.20
+
+[2020-02-12 20:05:47.171997]
+Iteration: 80000/100000 (80.0%)
+Average loss: 2.9329723305344713
+Average precision: 0.4425157744257119
+Average recall: 0.31155671816315667
+Average F1: 0.34705871613443
+Exact match: 0.08403914925654056
+Unique names: 4070
+Epoch time: 00:01:56.51
+Training time: 00:00:53.28
+Evaluation time: 00:01:03.22
+Total training time: 02:30:38.27
+
+[2020-02-12 20:07:40.172364]
+Iteration: 81000/100000 (81.0%)
+Average loss: 3.0037354080638687
+Average precision: 0.45526673119840827
+Average recall: 0.2964577685004017
+Average F1: 0.3402539277348288
+Exact match: 0.09504987765857331
+Unique names: 3105
+Epoch time: 00:01:52.56
+Training time: 00:00:53.22
+Evaluation time: 00:00:59.34
+Total training time: 02:32:31.27
+
+[2020-02-12 20:09:35.811848]
+Iteration: 82000/100000 (82.0%)
+Average loss: 2.9340818761887713
+Average precision: 0.44206450037195405
+Average recall: 0.2993625769529232
+Average F1: 0.33847775290712206
+Exact match: 0.09232072275550536
+Unique names: 3540
+Epoch time: 00:01:55.21
+Training time: 00:00:53.81
+Evaluation time: 00:01:01.39
+Total training time: 02:34:26.91
+
+[2020-02-12 20:11:28.305183]
+Iteration: 83000/100000 (83.0%)
+Average loss: 3.0839672800339546
+Average precision: 0.45152120136592155
+Average recall: 0.2982271030619443
+Average F1: 0.3407382399784504
+Exact match: 0.09090909090909091
+Unique names: 3198
+Epoch time: 00:01:52.06
+Training time: 00:00:51.95
+Evaluation time: 00:01:00.10
+Total training time: 02:36:19.41
+
+[2020-02-12 20:13:23.688715]
+Iteration: 84000/100000 (84.0%)
+Average loss: 3.029816456645412
+Average precision: 0.4375332741792371
+Average recall: 0.3039485398533974
+Average F1: 0.33955089465964766
+Exact match: 0.08639186900056466
+Unique names: 3846
+Epoch time: 00:01:54.86
+Training time: 00:00:52.44
+Evaluation time: 00:01:02.42
+Total training time: 02:38:14.79
+
+[2020-02-12 20:15:18.843865]
+Iteration: 85000/100000 (85.0%)
+Average loss: 2.9932125359801662
+Average precision: 0.4463752431143734
+Average recall: 0.2995158852795804
+Average F1: 0.3401917828164208
+Exact match: 0.08516845473367213
+Unique names: 3455
+Epoch time: 00:01:54.75
+Training time: 00:00:53.44
+Evaluation time: 00:01:01.31
+Total training time: 02:40:09.95
+
+[2020-02-12 20:17:14.344985]
+Iteration: 86000/100000 (86.0%)
+Average loss: 3.0415035485417863
+Average precision: 0.45325989860151344
+Average recall: 0.3044370628221577
+Average F1: 0.34546073002910316
+Exact match: 0.09072087332956898
+Unique names: 3632
+Epoch time: 00:01:55.09
+Training time: 00:00:53.98
+Evaluation time: 00:01:01.11
+Total training time: 02:42:05.45
+
+[2020-02-12 20:19:06.486357]
+Iteration: 87000/100000 (87.0%)
+Average loss: 3.0048842036658603
+Average precision: 0.458347449651798
+Average recall: 0.2960345696088238
+Average F1: 0.340874671039997
+Exact match: 0.0942970073404856
+Unique names: 3178
+Epoch time: 00:01:51.73
+Training time: 00:00:52.29
+Evaluation time: 00:00:59.44
+Total training time: 02:43:57.59
+
+[2020-02-12 20:21:10.047161]
+Iteration: 88000/100000 (88.0%)
+Average loss: 2.9714088672938765
+Average precision: 0.4443738628521243
+Average recall: 0.30818220223217596
+Average F1: 0.3448624494910724
+Exact match: 0.08874458874458875
+Unique names: 3877
+Epoch time: 00:02:03.04
+Training time: 00:01:00.74
+Evaluation time: 00:01:02.29
+Total training time: 02:46:01.15
+
+[2020-02-12 20:23:04.688864]
+Iteration: 89000/100000 (89.0%)
+Average loss: 2.9999319806963785
+Average precision: 0.4451349116721793
+Average recall: 0.3094795878463318
+Average F1: 0.3465948404754168
+Exact match: 0.09053265575004706
+Unique names: 3829
+Epoch time: 00:01:54.23
+Training time: 00:00:53.06
+Evaluation time: 00:01:01.16
+Total training time: 02:47:55.79
+
+[2020-02-12 20:24:59.963238]
+Iteration: 90000/100000 (90.0%)
+Average loss: 2.89363867214815
+Average precision: 0.4569362659424776
+Average recall: 0.30940897099847064
+Average F1: 0.3500959495130275
+Exact match: 0.09533220402785621
+Unique names: 3770
+Epoch time: 00:01:54.86
+Training time: 00:00:53.42
+Evaluation time: 00:01:01.44
+Total training time: 02:49:51.07
+
+[2020-02-12 20:26:55.216768]
+Iteration: 91000/100000 (91.0%)
+Average loss: 3.0194206832870165
+Average precision: 0.4599833741138095
+Average recall: 0.30541856270964335
+Average F1: 0.34789284375564733
+Exact match: 0.09627329192546584
+Unique names: 3547
+Epoch time: 00:01:54.84
+Training time: 00:00:54.20
+Evaluation time: 00:01:00.64
+Total training time: 02:51:46.32
+
+[2020-02-12 20:28:49.458079]
+Iteration: 92000/100000 (92.0%)
+Average loss: 2.8759542593355008
+Average precision: 0.4630676776639513
+Average recall: 0.30592029397083276
+Average F1: 0.3493999795935606
+Exact match: 0.0940146809712027
+Unique names: 3523
+Epoch time: 00:01:53.84
+Training time: 00:00:53.61
+Evaluation time: 00:01:00.23
+Total training time: 02:53:40.56
+
+[2020-02-12 20:30:44.401952]
+Iteration: 93000/100000 (93.0%)
+Average loss: 2.9659234881175527
+Average precision: 0.44922431203487095
+Average recall: 0.3097744855579435
+Average F1: 0.3477061294447267
+Exact match: 0.09203839638622248
+Unique names: 3838
+Epoch time: 00:01:54.53
+Training time: 00:00:52.67
+Evaluation time: 00:01:01.86
+Total training time: 02:55:35.50
+
+[2020-02-12 20:32:38.976311]
+Iteration: 94000/100000 (94.0%)
+Average loss: 2.85252529081695
+Average precision: 0.4607703028510487
+Average recall: 0.3088677584936783
+Average F1: 0.35054987255596826
+Exact match: 0.09448522492000754
+Unique names: 3530
+Epoch time: 00:01:54.17
+Training time: 00:00:53.08
+Evaluation time: 00:01:01.08
+Total training time: 02:57:30.08
+
+[2020-02-12 20:34:43.063754]
+Iteration: 95000/100000 (95.0%)
+Average loss: 2.9315568132851024
+Average precision: 0.46105061260340796
+Average recall: 0.306647800930694
+Average F1: 0.34932375870105853
+Exact match: 0.09486166007905138
+Unique names: 3582
+Epoch time: 00:02:03.56
+Training time: 00:01:01.78
+Evaluation time: 00:01:01.78
+Total training time: 02:59:34.17
+
+[2020-02-12 20:36:38.158344]
+Iteration: 96000/100000 (96.0%)
+Average loss: 2.8325319130346576
+Average precision: 0.45537712230258826
+Average recall: 0.31074543881574007
+Average F1: 0.3503125885667413
+Exact match: 0.09232072275550536
+Unique names: 3756
+Epoch time: 00:01:54.69
+Training time: 00:00:53.53
+Evaluation time: 00:01:01.16
+Total training time: 03:01:29.26
+
+[2020-02-12 20:38:33.417961]
+Iteration: 97000/100000 (97.0%)
+Average loss: 2.870457697816738
+Average precision: 0.4610149857044272
+Average recall: 0.31452640307807095
+Average F1: 0.35483880953912805
+Exact match: 0.09712027103331451
+Unique names: 3875
+Epoch time: 00:01:54.86
+Training time: 00:00:53.87
+Evaluation time: 00:01:00.99
+Total training time: 03:03:24.52
+
+[2020-02-12 20:40:28.124079]
+Iteration: 98000/100000 (98.0%)
+Average loss: 2.8880077399274824
+Average precision: 0.46323147177184454
+Average recall: 0.3164897180636898
+Average F1: 0.3574158105616731
+Exact match: 0.09410878976096368
+Unique names: 3846
+Epoch time: 00:01:54.29
+Training time: 00:00:53.25
+Evaluation time: 00:01:01.03
+Total training time: 03:05:19.23
+
+[2020-02-12 20:42:23.012634]
+Iteration: 99000/100000 (99.0%)
+Average loss: 2.859499678946863
+Average precision: 0.45565403368198326
+Average recall: 0.31652447610945844
+Average F1: 0.35506900681945275
+Exact match: 0.09768492377188029
+Unique names: 3934
+Epoch time: 00:01:54.47
+Training time: 00:00:53.55
+Evaluation time: 00:01:00.92
+Total training time: 03:07:14.11
+
+[2020-02-12 20:44:16.533973]
+Iteration: 100000/100000 (100.0%)
+Average loss: 2.9855782324625366
+Average precision: 0.45773932761510416
+Average recall: 0.30868645491740015
+Average F1: 0.35024739937343213
+Exact match: 0.09796725014116318
+Unique names: 3539
+Epoch time: 00:01:53.11
+Training time: 00:00:52.09
+Evaluation time: 00:01:01.02
+Total training time: 03:09:07.64
+
